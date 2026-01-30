@@ -23,7 +23,7 @@ function Home() {
           <div className='text-white'>
             <h1 className=' absolute top-[15vh] right-[5vw] text-[2.2vh] w-[13vw] text-right'>Bachelor’s in Computer Science</h1>
             <div className='absolute top-[21vh] right-[5vw] text-[5vh]'> + </div>
-            <h1 className=' absolute top-[28vh] right-[5vw] text-[2.2vh] w-[16vw] text-right '>Currently pursuing Master’s <br /> in Human-Computer
+            <h1 className=' absolute top-[28vh] right-[5vw] text-[2.2vh] w-[16vw] text-right '>Currently pursuing Master’s <br /> in Human-Computer <br />
              Interaction</h1>
           </div>
         </div>
