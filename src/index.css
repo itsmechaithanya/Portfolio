@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @import 'locomotive-scroll/dist/locomotive-scroll.css';
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
