@@ -119,12 +119,9 @@ function Home() {
                 <div className=''><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img className='' src={ArrowUp} alt="" /></h1></div>
                 <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
               </div>
-              <div className='w-full flex items-center justify-center mt-[8vh]'>
-                <img className='w-[80vw]' src={CookLG} alt="" />
-              </div>
               <div className='flex mt-[5vh]'>
-                <div className='w-[50vw]'><img className='w-[22vw] h-full' src={CookIQ} alt="" /></div>
-                <div className='w-[50vw] flex items-center '>
+                <div className='w-1/2'><img className='w-[22vw] h-full' src={CookIQ} alt="" /></div>
+                <div className='w-1/2 flex items-center '>
                   <h1 className='text-[3vh] text-[#606060]'><span className='text-black font-bold'>CookIQ</span> is a context-aware cooking application designed to reduce cognitive load for beginners and casual cooks. It provides step-by-step, visually guided assistance that adapts recipes based on available ingredients, kitchen tools, cooking pace, and dietary needs. CookIQ integrates with a smart cooking device, like an Instant Pot, to guide users accurately and efficiently through every step.</h1>
                 </div>
               </div>
