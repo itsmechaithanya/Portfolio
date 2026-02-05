@@ -6,6 +6,7 @@ import Clip from '../assets/Clip.svg'
 import Me from '../assets/Me.svg'
 import figma from '../assets/figma.svg'
 import rea from '../assets/react.svg'
+import mot from '../assets/motion.svg'
 import cs from '../assets/css.svg'
 import gsa from '../assets/gsap.svg'
 import loco from '../assets/loco.svg'
@@ -61,11 +62,12 @@ function Home() {
             <h1 className='text-[2.7vh] text-[#606060]'>Crafted with Precision.</h1>
           </div>
           <div className='flex items-center justify-center'>
-            <div className='w-[96vw] bg-[#EFF0FF] h-[65vh] flex items-center justify-center pl-[3vw] rounded-[5vh] overflow-hidden'>
+            <div className='w-[96vw] bg-[#D4E6FB] h-[65vh] flex items-center justify-center pl-[3vw] rounded-[5vh] overflow-hidden'>
               <div className='flex overflow-auto no-scrollbar'>
                 <img className='h-[50vh] mx-4' src={figma} alt="" />
                 <img className='h-[50vh] mx-4' src={rea} alt="" />
                 <img className='h-[50vh] mx-4' src={cs} alt="" />
+                <img className='h-[50vh] mx-4' src={mot} alt="" />
                 <img className='h-[50vh] mx-4' src={gsa} alt="" />
                 <img className='h-[50vh] mx-4' src={loco} alt="" />
                 <img className='h-[50vh] mx-4' src={le} alt="" />
@@ -92,7 +94,7 @@ function Home() {
                 <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
               </div>
               <div className='flex items-center justify-center mt-[5vh]'>
-                <div className='w-[65vw] h-[85vh] rounded-[5vh] overflow-hidden'> 
+                <div className='w-[65vw] rounded-[5vh] overflow-hidden'> 
                   <img className='w-full h-full' src={glasses} alt="" />
               </div>
               </div>
@@ -110,25 +112,27 @@ function Home() {
               <div className='flex'>
                 <div className='w-[50vw] text-[3vh]'><h1 className='font-bold'>CookIQ<span className='text-[#606060] font-normal'> - An adaptive cooking app reduces mental load by guiding users with context-aware, step-by-step, personalized assistance at home.</span></h1></div>
                 <div className='w-[41vw] h-[10vh] flex flex-col items-end text-[2.2vh] gap-[1vh]'>
-                  <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'></h1>
-                  <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Computer Vision</h1>
-                  <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Neurodiversity</h1>
+                  <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>User Research</h1>
+                  <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>UI Design</h1>
+                  <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Prototype</h1>
                 </div>
               </div>
               <div className='flex gap-[3vw] mt-[5vh]'>
                 <div className=''><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img className='' src={ArrowUp} alt="" /></h1></div>
                 <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
               </div>
-              <div className='flex mt-[5vh]'>
-                <div className='w-1/2'><img className='w-[22vw] h-full' src={CookIQ} alt="" /></div>
+              <div className='flex mt-[8vh]'>
+                <div className='w-1/2'><img className='w-[26vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
                 <div className='w-1/2 flex items-center '>
                   <h1 className='text-[3vh] text-[#606060]'><span className='text-black font-bold'>CookIQ</span> is a context-aware cooking application designed to reduce cognitive load for beginners and casual cooks. It provides step-by-step, visually guided assistance that adapts recipes based on available ingredients, kitchen tools, cooking pace, and dietary needs. CookIQ integrates with a smart cooking device, like an Instant Pot, to guide users accurately and efficiently through every step.</h1>
                 </div>
               </div>
             </div>
             <div>
-
             </div>
+          </div>
+          <div className='h-[30vh] w-full bg-red-200'>
+
           </div>
          </div>
         </div>
