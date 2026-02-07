@@ -19,7 +19,7 @@ import CookLG from '../assets/cooklg.png'
 function Home() {
   return (
     <div>
-      <div className="w-screen overflow-hidden">
+      <div className="w-screen overflow-hidden font-GilroyMedium">
         <div>
           <div className=' h-screen w-full relative'>
             <video className='h-[110vh] w-full object-cover absolute' src={Hero} autoPlay muted loop></video>
@@ -122,7 +122,7 @@ function Home() {
                 <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
               </div>
               <div className='flex mt-[8vh]'>
-                <div className='w-1/2'><img className='w-[26vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
+                <div className='w-1/2'><img className='w-[22vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
                 <div className='w-1/2 flex items-center '>
                   <h1 className='text-[3vh] text-[#606060]'><span className='text-black font-bold'>CookIQ</span> is a context-aware cooking application designed to reduce cognitive load for beginners and casual cooks. It provides step-by-step, visually guided assistance that adapts recipes based on available ingredients, kitchen tools, cooking pace, and dietary needs. CookIQ integrates with a smart cooking device, like an Instant Pot, to guide users accurately and efficiently through every step.</h1>
                 </div>
@@ -131,8 +131,15 @@ function Home() {
             <div>
             </div>
           </div>
-          <div className='h-[30vh] w-full bg-red-200'>
-
+          <div className='w-full h-[23vh] px-[10vh] pt-[8vh]'>
+            <h1 className='text-[4vh] font-extrabold'>Nice to meet you,</h1>
+            <h1 className='text-[2.7vh] text-[#606060]'>Let's connect.</h1>
+          </div>
+          <div className='flex items-center justify-center'>
+          <div className='w-[96vw] bg-[#DDEAF7] px-[5vw] py-[10vh] rounded-[10vh] text-[3vh]'>
+            <h1 className=''>I am always open for new and exciting opportunities. Please reach out via one of the channels below to start the conversation</h1>
+            <h1 className='mt-[5vh] text-[2.5vh] text-[#606060]'>Find me elsewhere on web,</h1>
+          </div>
           </div>
          </div>
         </div>
