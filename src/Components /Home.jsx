@@ -14,7 +14,8 @@ import le from '../assets/le.svg'
 import three from '../assets/three.svg'
 import glasses from '../assets/glasses.png'
 import CookIQ from '../assets/CookIQ.png'
-import CookLG from '../assets/cooklg.png'
+import f from '../assets/f.svg'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -33,9 +34,9 @@ function Home() {
             <h1 className='text-[3vh]'>Scroll Down</h1>
           </div>
           <div className='text-white'>
-            <h1 className=' absolute top-[17vh] right-[5vw] text-[2.2vh] w-[13vw] text-right'>Bachelor’s in <br /> Computer Science</h1>
-            <div className='absolute top-[23vh] right-[5vw] text-[5vh]'> + </div>
-            <h1 className=' absolute top-[31vh] right-[5vw] text-[2.2vh] w-[16vw] text-right '>Currently pursuing Master’s <br /> in Human-Computer <br />
+            <h1 className=' absolute top-[15vh] right-[5vw] text-[2.2vh] w-[13vw] text-right'>Bachelor's in <br /> Computer Science</h1>
+            <div className='absolute top-[21vh] right-[5vw] text-[5vh]'> + </div>
+            <h1 className=' absolute top-[29vh] right-[5vw] text-[2.2vh] w-[16vw] text-right '>Currently pursuing Master's <br /> in Human-Computer <br />
              Interaction</h1>
           </div>
         </div>
@@ -45,8 +46,8 @@ function Home() {
             className='flex bg-[#EFF0FF]
              rounded-[8vh] absolute pt-[10vh] pb-[10vh]'>
               <div className='w-[50vw] flex items-center justify-center relative '>
-                <div><img className=' absolute h-[15vh] left-[4.5vw]' src={Clip} alt="" /></div>
-                <div className='w-[35vw] h-[80vh] my-[5vh] bg-green-200 rounded-[5vh] overflow-hidden'>
+                <div><img className=' absolute h-[15vh] left-[5vw]' src={Clip} alt="" /></div>
+                <div className='w-[35vw] h-[80vh] my-[5vh] ml-[2vw] bg-green-200 rounded-[5vh] overflow-hidden'>
                   <img className='w-full h-full object-cover' src={Me} alt="" />
                 </div>
               </div>
@@ -82,7 +83,7 @@ function Home() {
           <div className='h-fit flex justify-center '>
             <div className='w-[90vw] h-fit bg-[#FBFFFE] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
               <div className='flex'>
-                <div className='w-[50vw] text-[3vh] font-bold'><h1>Project Aria Gen 1 <span className='text-[#606060] font-normal'> - Technical Lead working with Meta ARIA Gen-1 glasses, researching inclusive AI systems through neurodivergent interaction practices.</span></h1></div>
+                <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>Project Aria Gen 1 <span className='text-[#606060] text-[3vh] font-normal'> - Technical Lead working with Meta ARIA Gen-1 glasses, researching inclusive AI systems through neurodivergent interaction practices.</span></h1></div>
                 <div className='w-[41vw] h-[10vh] flex flex-col items-end text-[2.2vh] gap-[1vh]'>
                   <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Research</h1>
                   <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Computer Vision</h1>
@@ -110,7 +111,7 @@ function Home() {
           <div className='h-fit flex justify-center mt-[5vh]'>
             <div className='w-[90vw] h-fit bg-[#F6F9F1] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
               <div className='flex'>
-                <div className='w-[50vw] text-[3vh]'><h1 className='font-bold'>CookIQ<span className='text-[#606060] font-normal'> - An adaptive cooking app reduces mental load by guiding users with context-aware, step-by-step, personalized assistance at home.</span></h1></div>
+                <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>CookIQ<span className='text-[#606060] text-[3vh] font-normal'> - An adaptive cooking app reduces mental load by guiding users with context-aware, step-by-step, personalized assistance at home.</span></h1></div>
                 <div className='w-[41vw] h-[10vh] flex flex-col items-end text-[2.2vh] gap-[1vh]'>
                   <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>User Research</h1>
                   <h1 className='px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>UI Design</h1>
@@ -128,17 +129,26 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div>
-            </div>
           </div>
           <div className='w-full h-[23vh] px-[10vh] pt-[8vh]'>
             <h1 className='text-[4vh] font-extrabold'>Nice to meet you,</h1>
             <h1 className='text-[2.7vh] text-[#606060]'>Let's connect.</h1>
           </div>
           <div className='flex items-center justify-center'>
-          <div className='w-[96vw] bg-[#DDEAF7] px-[5vw] py-[10vh] rounded-[10vh] text-[3vh]'>
-            <h1 className=''>I am always open for new and exciting opportunities. Please reach out via one of the channels below to start the conversation</h1>
-            <h1 className='mt-[5vh] text-[2.5vh] text-[#606060]'>Find me elsewhere on web,</h1>
+          <div className='w-[96vw] bg-[#F6F1E5] px-[10vh] py-[10vh] rounded-[10vh] text-[3vh] mb-[5vh] relative'>
+            <h1 className='text-[5vh] font-bold leading-[6vh] mb-[5vh]'>Curious by Nature. Designer by <br /> Practice. Developer by Passion.</h1>
+            <h1 className='w-1/2'>I'm always open to new and exciting opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below I'd love to connect and explore how we can work together.</h1>
+            <h1 className='mt-[3vh] text-[2.5vh] text-[#606060]'>Find me elsewhere on web,</h1>
+            <div className='h-[10vh]'></div>
+            <div className=''>
+              <div className='flex gap-[3vw] text-[3vh] font-semibold'>
+                <Link to="https://www.linkedin.com/in/chaithanya-mangali-702584239/">linkedIn</Link>
+                <Link to="https://www.instagram.com/chaithanya_mangali/">Instagram</Link>
+                <Link to="https://github.com/ChaithanyaMangali">Github</Link>
+              </div>
+              <h1 className='text-[2.5vh] text-[#606060] mt-[2vh]'>cmangali@depaul.edu</h1>
+              <img className='absolute top-0 right-[7vw]' src={f} alt="footer logo" />
+            </div>
           </div>
           </div>
          </div>

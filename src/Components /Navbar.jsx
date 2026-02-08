@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div className='flex justify-center '>
-    <nav className='flex justify-between px-[2vw] mt-[1.5vh] py-[1vh] fixed z-30 backdrop-blur-lg w-[80vw] rounded-[5vh] bg-[#0000006e] text-[white]'>
+    <nav className='flex justify-between px-[2vw] mt-[1.5vh] py-[1vh] fixed z-30 backdrop-blur-sm w-[80vw] rounded-[5vh] bg-[#32323253] text-[white] shadow-md '>
       <div>
         <Link to="/"> <h1 className='text-[4vh] font-bold '>Chay :)</h1></Link>
       </div>
       <div className='flex items-center justify-between gap-[3vw]'>
         <div className='flex gap-[3vw] mr-[-1vw]'>
-        <Link to="/Uxwork">UX Work</Link>
+        <Link to="/Uxwork">UX Case Studies</Link>
         <Link to="/Web">Web Dev</Link>
         <Link to="/About">About</Link>
         <Link to="https://drive.google.com/file/d/1nVWuErFc4zpfjrlTnmqQtMF9LeVRG0vv/view?usp=sharing">Resume</Link>
