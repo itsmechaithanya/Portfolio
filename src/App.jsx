@@ -1,12 +1,12 @@
 import React from 'react'
-import Home from './Components /Home.jsx'
-import About from './Components /About.jsx'
-import Ux from './Components /Uxwork.jsx'
-import Web from './Components /Web.jsx'
-import Contact from './Components /Contact.jsx'
+import Home from './Components/Home.jsx'
+import About from './Components/About.jsx'
+import Ux from './Components/Uxwork.jsx'
+import Web from './Components/Web.jsx'
+import Contact from './Components/Contact.jsx'
 import LocomotiveScroll from 'locomotive-scroll';
 import {Routes,Route,Link } from "react-router-dom";
-import Navbar from './Components /Navbar.jsx';
+import Navbar from './Components/Navbar.jsx';
 
 
 function App() {
