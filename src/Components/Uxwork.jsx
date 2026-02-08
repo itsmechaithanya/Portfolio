@@ -1,7 +1,7 @@
 import React from 'react'
-import pen from '../Assets/pen.svg'
+import pen from '../assets/pen.svg'
 import ArrowUp from '../assets/ArrowUp.svg'
-import UXP from '../Assets/USP.svg'
+import UXP from '../assets/USP.svg'
 
 function Uxwork() {
   return (
