@@ -1,5 +1,5 @@
 import React from 'react'
-import pen from '../Assets/pen.png'
+import pen from '../Assets/pen.svg'
 import ArrowUp from '../assets/ArrowUp.svg'
 import UXP from '../Assets/USP.svg'
 
