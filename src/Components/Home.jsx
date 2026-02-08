@@ -142,9 +142,9 @@ function Home() {
             <div className='h-[10vh]'></div>
             <div className=''>
               <div className='flex gap-[3vw] text-[3vh] font-semibold'>
-                <Link to="https://www.linkedin.com/in/chaithanya-mangali-702584239/">linkedIn</Link>
-                <Link to="https://www.instagram.com/chaithanya_mangali/">Instagram</Link>
-                <Link to="https://github.com/ChaithanyaMangali">Github</Link>
+                <Link to="https://www.linkedin.com/in/ohnochaithanya//">LinkedIn</Link>
+                <Link to="https://www.instagram.com/ohnochaithanya">Instagram</Link>
+                <Link to="https://github.com/itsmechaithanya">Github</Link>
               </div>
               <h1 className='text-[2.5vh] text-[#606060] mt-[2vh]'>cmangali@depaul.edu</h1>
               <img className='absolute top-0 right-[7vw]' src={f} alt="footer logo" />
