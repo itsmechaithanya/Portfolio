@@ -5,13 +5,40 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "GilroyBold";
+  src: url("./assets/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GilroyHeavy";
+  src: url("./assets/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
 @import "tailwindcss";
 @import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.font-GilroyMedium {
+  font-family: "GilroyMedium", sans-serif;
+}
+
+.font-GilroyBold {
+  font-family: "GilroyBold", sans-serif;
+}
+
+.font-GilroyHeavy {
+  font-family: "GilroyHeavy", sans-serif;
 }
