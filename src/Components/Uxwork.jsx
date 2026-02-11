@@ -35,7 +35,7 @@ function Uxwork() {
             </div>
             <div>
               <div className='flex mt-[8vh]'>
-                <div className='w-1/2'><img className='w-[22vw] h-full ml-[5vw]' src={UXPineapple} alt="Pineapple App" /></div>
+                <div className='w-1/2'><img className='w-[20vw] h-full ml-[5vw]' src={UXPineapple} alt="Pineapple App" /></div>
                 <div className='w-1/2 flex items-center '>
                   <h1 className='text-[3vh] text-[#606060]'>This app reduces friction in healthcare access by simplifying appointment scheduling and clarifying insurance coverage and costs. It improves communication between patients, providers, and insurers, ensuring timely updates and coordination. The platform makes healthcare more transparent, predictable, and less stressful for users of all backgrounds.</h1>
                 </div>
@@ -58,7 +58,7 @@ function Uxwork() {
               <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
             </div>
             <div className='flex mt-[8vh]'>
-              <div className='w-1/2'><img className='w-[22vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
+              <div className='w-1/2'><img className='w-[20vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
               <div className='w-1/2 flex items-center '>
                 <h1 className='text-[3vh] text-[#606060]'><span className='text-black font-bold'>CookIQ</span> is a context-aware cooking application designed to reduce cognitive load for beginners and casual cooks. It provides step-by-step, visually guided assistance that adapts recipes based on available ingredients, kitchen tools, cooking pace, and dietary needs. CookIQ integrates with a smart cooking device, like an Instant Pot, to guide users accurately and efficiently through every step.</h1>
               </div>

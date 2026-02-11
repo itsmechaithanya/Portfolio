@@ -12,7 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 
 
 function App() {
-	const locomotiveScroll = new LocomotiveScroll();
+	// const locomotiveScroll = new LocomotiveScroll();
 
 	return (
 		<>

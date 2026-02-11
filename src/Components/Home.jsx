@@ -36,7 +36,7 @@ function Home() {
 
       // Video Parallax
       gsap.to(videoRef.current, {
-        yPercent: 30, // Move video down slightly as we scroll
+        yPercent: 50, // Move video down slightly as we scroll
         ease: "none",
         scrollTrigger: {
           trigger: heroRef.current,
