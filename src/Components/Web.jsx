@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import pen from '../assets/web.svg'
 import ArrowUp from '../assets/ArrowUp.svg'
-import codex from '../assets/codex.svg'
+import codex from '../assets/Codex.svg'
 import codexm from '../assets/codexm.svg'
-import agro from '../assets/agro.svg'
+import agro from '../assets/Agro.svg'
 import agrom from '../assets/agrom.svg'
 import jui from '../assets/jui.svg'
 import juim from '../assets/juim.svg'
@@ -19,12 +19,12 @@ import tvm from '../assets/tvm.svg'
 function Web() {
   return (
     <div>
-        <div className='px-[7vw] pt-[15vh] flex'>
-          <h1 className='text-[8vh] font-black'>Web Dev</h1>
-          <img className='w-[3.5vw] h-[6vh] mt-[3vh] ml-[1vw]' src={pen} alt="Pen Icon" />
-        </div>
-        <div className='flex flex-col items-center justify-center mt-[5vh]'>
-          <div className='h-fit flex justify-center '>
+      <div className='px-[7vw] pt-[15vh] flex'>
+        <h1 className='text-[8vh] font-black'>Web Dev</h1>
+        <img className='w-[3.5vw] h-[6vh] mt-[3vh] ml-[1vw]' src={pen} alt="Pen Icon" />
+      </div>
+      <div className='flex flex-col items-center justify-center mt-[5vh]'>
+        <div className='h-fit flex justify-center '>
           <div className='w-[90vw] h-fit bg-[#FFF1F1] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
             <div className='flex'>
               <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>CodeX Website <span className='text-[#606060] text-[3vh] font-normal'> - University club dedicated to fostering innovation through collaborative projects, skill development, and events in technology and design.</span></h1></div>
@@ -53,7 +53,7 @@ function Web() {
             </div>
           </div>
         </div>
-          <div className='h-fit flex justify-center mt-[5vh]'>
+        <div className='h-fit flex justify-center mt-[5vh]'>
           <div className='w-[90vw] h-fit bg-[#F1F5FF] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
             <div className='flex'>
               <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>Agromate Website <span className='text-[#606060] text-[3vh] font-normal'> - Transforming agriculture through smart technology, sustainable solutions, and innovative practices for modern farming.</span></h1></div>
@@ -82,7 +82,7 @@ function Web() {
             </div>
           </div>
         </div>
-          <div className='h-fit flex justify-center mt-[5vh]'>
+        <div className='h-fit flex justify-center mt-[5vh]'>
           <div className='w-[90vw] h-fit bg-[#F5FAEF] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
             <div className='flex'>
               <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>Juiceman Website <span className='text-[#606060] text-[3vh] font-normal'> -   Innovative sugarcane vending machine designed to deliver freshly crushed juice with advanced squeezing technology, ensuring hygiene, convenience, and natural goodness.</span></h1></div>
@@ -110,7 +110,7 @@ function Web() {
             </div>
           </div>
         </div>
-          <div className='h-fit flex justify-center mt-[5vh]'>
+        <div className='h-fit flex justify-center mt-[5vh]'>
           <div className='w-[90vw] h-fit bg-[#FFF9F1] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
             <div className='flex'>
               <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>Woxsen Website <span className='text-[#606060] text-[3vh] font-normal'> - A complete redesign that reflects the university's identity and infrastructure while delivering a rich digital experience for users.</span></h1></div>
@@ -137,7 +137,7 @@ function Web() {
             </div>
           </div>
         </div>
-          <div className='h-fit flex justify-center mt-[5vh]'>
+        <div className='h-fit flex justify-center mt-[5vh]'>
           <div className='w-[90vw] h-fit bg-[#F1F5FF] border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[10vh]'>
             <div className='flex'>
               <div className='w-[50vw] font-bold leading-[4vh] '><h1 className='text-[3.5vh]'>Uifry Website <span className='text-[#606060] text-[3vh] font-normal'> - Transforming agriculture through smart technology, sustainable solutions, and innovative practices for modern farming.</span></h1></div>
@@ -166,7 +166,7 @@ function Web() {
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }
