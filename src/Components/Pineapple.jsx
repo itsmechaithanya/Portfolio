@@ -1,5 +1,5 @@
 import React from 'react'
-import USP from '../assets/UXHero.svg'
+import USP from '../assets/UXHeroImage.svg'
 import Find from '../assets/Find.svg'
 import UXLogo from '../assets/UXLogo.svg'
 import UXPineapple from '../assets/UXPineapple.svg'
