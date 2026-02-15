@@ -13,7 +13,7 @@ function Navbar() {
         <Link to="/Uxwork">UX Case Studies</Link>
         <Link to="/Web">Web Dev</Link>
         <Link to="/About">About</Link>
-        <Link to="https://drive.google.com/file/d/1nVWuErFc4zpfjrlTnmqQtMF9LeVRG0vv/view?usp=sharing">Resume</Link>
+        <Link to="https://drive.google.com/file/d/1jeWjpZHjgRhrNYF_RNstf4O1tI79hJ91/view?usp=sharing">Resume</Link>
         </div>
         <Link className='text-black bg-white px-[2.5vh] py-[1.3vh] rounded-[3vh] mr-[-1vw]' to="/Contact">Contact</Link>
       </div>
