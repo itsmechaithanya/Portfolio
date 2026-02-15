@@ -35,7 +35,7 @@ function Uxwork() {
             </div>
             <div>
               <div className='flex mt-[8vh]'>
-                <div className='w-1/2'><img className='w-[20vw] h-full ml-[5vw]' src={UXPineapple} alt="Pineapple App" /></div>
+                <div className='w-1/2'><img className='w-[20vw] h-full ml-[5vw]' src={UXPineapple} alt="Pineapple App"  /></div>
                 <div className='w-1/2 flex items-center '>
                   <h1 className='text-[3vh] text-[#606060]'>This app reduces friction in healthcare access by simplifying appointment scheduling and clarifying insurance coverage and costs. It improves communication between patients, providers, and insurers, ensuring timely updates and coordination. The platform makes healthcare more transparent, predictable, and less stressful for users of all backgrounds.</h1>
                 </div>
