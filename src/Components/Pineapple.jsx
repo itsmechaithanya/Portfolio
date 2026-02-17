@@ -29,7 +29,7 @@ function Pineapple() {
                 {/* Header */}
                 <div className='flex items-center gap-[1vw] mb-[8vh]'>
                     <h1 className='text-[9vh] font-extrabold font-GilroyBold'>Pineapple</h1>
-                    <img src={UXLogo} alt="Medical Icon" className='h-[9.5vh] mt-[-1vh]' />
+                    <img loading='lazy' src={UXLogo} alt="Medical Icon" className='h-[9.5vh] mt-[-1vh]' />
                 </div>
 
                 {/* Description */}
@@ -39,7 +39,7 @@ function Pineapple() {
 
                 {/* Image Section */}
                 <div className='w-full bg-[#EFF0FF] rounded-[6vh] flex justify-center mb-[12vh]'>
-                    <img src={USP} alt="Pineapple App Screens" className='w-full object-contain' />
+                    <img loading='lazy' src={USP} alt="Pineapple App Screens" className='w-full object-contain' />
                 </div>
 
                 {/* Quote Section */}
@@ -83,7 +83,7 @@ function Pineapple() {
                         {/* Left Side - Phone Image */}
                         <div className='w-[50%] flex justify-center'>
                             {/* Placeholder for the specific "Find Hospitals" screen. */}
-                            <img src={Find} alt="Find Hospitals Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={Find} alt="Find Hospitals Feature" className='h-[70vh] object-contain' />
                         </div>
 
                         {/* Right Side - Text */}
@@ -112,8 +112,8 @@ function Pineapple() {
                             {/* Placeholder: The design shows 2 phones. I don't have a 2-phone asset named 'Filter'. 
                                  I'll use UXPineapple (3 phones) or Find (1 phone) as placeholder.
                                  I'll use UXPineapple for now as it depicts multiple screens. */}
-                            <img src={Doctor} alt="Filter Doctors Feature" className='h-[70vh] object-contain' />
-                            <img src={Problem} alt="Filter Doctors Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={Doctor} alt="Filter Doctors Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={Problem} alt="Filter Doctors Feature" className='h-[70vh] object-contain' />
                         </div>
 
                         {/* Right Side - Text */}
@@ -140,9 +140,9 @@ function Pineapple() {
                         <div className='flex justify-center mb-[5vh] gap-[2vw]'>
                             {/* Placeholder for the 3 phones image showing bill estimation flow. 
                                 Using UXPineapple as it depicts 3 phones, which matches the layout. */}
-                            <img src={B1} alt="Bill Estimation Screens" className='w-full object-contain' />
-                            <img src={B2} alt="Bill Estimation Screens" className='w-full object-contain' />
-                            <img src={B3} alt="Bill Estimation Screens" className='w-full object-contain' />
+                            <img loading='lazy' src={B1} alt="Bill Estimation Screens" className='w-full object-contain' />
+                            <img loading='lazy' src={B2} alt="Bill Estimation Screens" className='w-full object-contain' />
+                            <img loading='lazy' src={B3} alt="Bill Estimation Screens" className='w-full object-contain' />
                         </div>
 
                         <div className=''>
@@ -159,8 +159,8 @@ function Pineapple() {
                         {/* Left Side - Phone Image (2 phones) */}
                         <div className='w-[50%] flex gap-[2vw] justify-center'>
                             {/* Placeholder: Using Doctor and Problem again as placeholders for the 2 insurance screens. */}
-                            <img src={i1} alt="Insurance Management Feature" className='h-[70vh] object-contain' />
-                            <img src={i2} alt="Insurance Management Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={i1} alt="Insurance Management Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={i2} alt="Insurance Management Feature" className='h-[70vh] object-contain' />
                         </div>
 
                         {/* Right Side - Text */}
@@ -186,7 +186,7 @@ function Pineapple() {
                         {/* Zocdoc Card */}
                         <div className='w-1/2 border border-[#D7D7D7] rounded-[4vh] p-[5vh] shadow-[0_4px_20px_0_rgba(0,0,0,0.05)]'>
                             <div className='flex items-center gap-[2vh] mb-[5vh]'>
-                                <img src={zocdoc} alt="Zocdoc Logo" className='w-[8vh] h-[8vh] object-contain' />
+                                <img loading='lazy' src={zocdoc} alt="Zocdoc Logo" className='w-[8vh] h-[8vh] object-contain' />
                                 <h3 className='text-[4vh] font-GilroyBold'>Zocdoc</h3>
                             </div>
 
@@ -232,7 +232,7 @@ function Pineapple() {
                         {/* MyChart Card */}
                         <div className='w-1/2 border border-[#D7D7D7] rounded-[4vh] p-[5vh] shadow-[0_4px_20px_0_rgba(0,0,0,0.05)]'>
                             <div className='flex items-center gap-[2vh] mb-[5vh]'>
-                                <img src={mychat} alt="MyChart Logo" className='w-[8vh] h-[8vh] object-contain' />
+                                <img loading='lazy' src={mychat} alt="MyChart Logo" className='w-[8vh] h-[8vh] object-contain' />
                                 <h3 className='text-[4vh] font-GilroyBold'>MyChart</h3>
                             </div>
 
@@ -412,13 +412,13 @@ function Pineapple() {
                     <div className='space-y-[5vh]'>
                         {/* Row 1: Strawberry & Watermelon */}
                         <div className='flex gap-[2vw] justify-center'>
-                            <img src={p1} alt="Persona Strawberry" className='w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
-                            <img src={p2} alt="Persona Watermelon" className='w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
+                            <img loading='lazy' src={p1} alt="Persona Strawberry" className='w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
+                            <img loading='lazy' src={p2} alt="Persona Watermelon" className='w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
                         </div>
 
                         {/* Row 2: Blueberry */}
                         <div className='flex justify-center'>
-                            <img src={p3} alt="Persona Blueberry" className='w-[48%] object-contain rounded-[4vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
+                            <img loading='lazy' src={p3} alt="Persona Blueberry" className='w-[48%] object-contain rounded-[4vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
                         </div>
                     </div>
                 </div>
@@ -442,7 +442,7 @@ function Pineapple() {
                     <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
                         {/* Left Side - Image */}
                         <div className='w-[50%] flex gap-[2vw] justify-center'>
-                            <img src={paper} alt="Paper Prototype" className='w-full object-contain rounded-[4vh] h-[70vh]' />
+                            <img loading='lazy' src={paper} alt="Paper Prototype" className='w-full object-contain rounded-[4vh] h-[70vh]' />
                         </div>
 
                         {/* Right Side - Text */}
@@ -464,8 +464,8 @@ function Pineapple() {
                     <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
                         {/* Left Side - Image */}
                         <div className='w-[55%] flex gap-[2vw] justify-center'>
-                            <img src={v2} alt="High-Fidelity Exploration" className='w-full object-contain h-[70vh]' />
-                            <img src={v22} alt="High-Fidelity Exploration" className='w-full object-contain h-[70vh]' />
+                            <img loading='lazy' src={v2} alt="High-Fidelity Exploration" className='w-full object-contain h-[70vh]' />
+                            <img loading='lazy' src={v22} alt="High-Fidelity Exploration" className='w-full object-contain h-[70vh]' />
                         </div>
 
                         {/* Right Side - Text */}
@@ -487,8 +487,8 @@ function Pineapple() {
                     <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
                         {/* Left Side - Image */}
                         <div className='w-[50%] flex gap-[2vw] justify-center'>
-                            <img src={v3} alt="The Final Refined" className='w-full object-contain rounded-[4vh] h-[70vh]' />
-                            <img src={v32} alt="The Final Refined" className='w-full object-contain rounded-[4vh] h-[70vh]' />
+                            <img loading='lazy' src={v3} alt="The Final Refined" className='w-full object-contain rounded-[4vh] h-[70vh]' />
+                            <img loading='lazy' src={v32} alt="The Final Refined" className='w-full object-contain rounded-[4vh] h-[70vh]' />
                         </div>
 
                         {/* Right Side - Text */}

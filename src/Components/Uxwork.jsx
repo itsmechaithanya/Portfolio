@@ -6,12 +6,13 @@ import UXP from '../assets/USP.svg'
 import UXPineapple from '../assets/UXPineapple.svg'
 import CookIQ from '../assets/CookIQ.png'
 
+
 function Uxwork() {
   return (
     <div>
       <div className='px-[7vw] pt-[15vh] flex'>
         <h1 className='text-[8vh] font-black'>UX Case Studies</h1>
-        <img className='w-[3.5vw] h-[6vh] mt-[3vh] ml-[1vw]' src={pen} alt="Pen Icon" />
+        <img loading='lazy' className='w-[3.5vw] h-[6vh] mt-[3vh] ml-[1vw]' src={pen} alt="Pen Icon" />
       </div>
       <div className='flex flex-col items-center justify-center mt-[5vh]'>
         <div className='h-fit flex justify-center '>
@@ -30,12 +31,12 @@ function Uxwork() {
             </div>
             <div className='flex items-center justify-center mt-[5vh]'>
               <div className='w-[80vw] rounded-[5vh] overflow-hidden'>
-                <img className='w-full h-full' src={UXP} alt="UX Project Image" />
+                <img loading='lazy' className='w-full h-full' src={UXP} alt="UX Project Image" />
               </div>
             </div>
             <div>
               <div className='flex mt-[8vh]'>
-                <div className='w-1/2'><img className='w-[20vw] h-full ml-[5vw]' src={UXPineapple} alt="Pineapple App"  /></div>
+                <div className='w-1/2'><img loading='lazy' className='w-[20vw] h-full ml-[5vw]' src={UXPineapple} alt="Pineapple App" /></div>
                 <div className='w-1/2 flex items-center '>
                   <h1 className='text-[3vh] text-[#606060]'>This app reduces friction in healthcare access by simplifying appointment scheduling and clarifying insurance coverage and costs. It improves communication between patients, providers, and insurers, ensuring timely updates and coordination. The platform makes healthcare more transparent, predictable, and less stressful for users of all backgrounds.</h1>
                 </div>
@@ -54,11 +55,11 @@ function Uxwork() {
               </div>
             </div>
             <div className='flex gap-[3vw] mt-[5vh]'>
-              <div className=''><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img className='' src={ArrowUp} alt="" /></h1></div>
+              <div className='cursor-pointer' onClick={() => window.open('https://www.figma.com/proto/Mpmg3jwIcROXx1ekLYqhdk/Cooking-App?page-id=0%3A1&node-id=166-381&viewport=310%2C-710%2C0.22&t=deGrIngxsDbVIPmw-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=166%3A462', '_blank')}><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img loading='lazy' className='' src={ArrowUp} alt="" /></h1></div>
               <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
             </div>
             <div className='flex mt-[8vh]'>
-              <div className='w-1/2'><img className='w-[20vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
+              <div className='w-1/2'><img loading='lazy' className='w-[20vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
               <div className='w-1/2 flex items-center '>
                 <h1 className='text-[3vh] text-[#606060]'><span className='text-black font-bold'>CookIQ</span> is a context-aware cooking application designed to reduce cognitive load for beginners and casual cooks. It provides step-by-step, visually guided assistance that adapts recipes based on available ingredients, kitchen tools, cooking pace, and dietary needs. CookIQ integrates with a smart cooking device, like an Instant Pot, to guide users accurately and efficiently through every step.</h1>
               </div>

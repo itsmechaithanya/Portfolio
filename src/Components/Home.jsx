@@ -80,7 +80,7 @@ function Home() {
               <div className='overflow-hidden mt-[-4vh] pb-[1vh]'><h1 className="hero-text-3 text-[3vh] font-semi-bold ml-[1vw] mt-[3vh]">UX Engineer</h1></div>
             </div>
             <div className='absolute bottom-[8vh] right-[5vw] text-white flex items-center justify-center'>
-              <img className='h-[6.3vh] mr-[-.5vw]' src={Arrow} alt="" />
+              <img loading='lazy' className='h-[6.3vh] mr-[-.5vw]' src={Arrow} alt="" />
               <h1 className='text-[3vh]'>Scroll Down</h1>
             </div>
             <div className='text-white'>
@@ -96,9 +96,9 @@ function Home() {
               className='flex bg-[#EFF0FF]
              rounded-[8vh] absolute pt-[10vh] pb-[10vh]'>
               <div className='w-[50vw] flex items-center justify-center relative '>
-                <div><img className=' absolute h-[15vh] left-[5vw]' src={Clip} alt="" /></div>
+                <div><img loading='lazy' className=' absolute h-[15vh] left-[5vw]' src={Clip} alt="" /></div>
                 <div className='w-[35vw] h-[80vh] my-[5vh] ml-[2vw] bg-green-200 rounded-[5vh] overflow-hidden'>
-                  <img className='w-full h-full object-cover' src={Me} alt="" />
+                  <img loading='lazy' className='w-full h-full object-cover' src={Me} alt="" />
                 </div>
               </div>
               <div className='w-[50vw] flex items-center justify-center pr-[11vw] pl-[6vw]'>
@@ -115,14 +115,14 @@ function Home() {
             <div className='flex items-center justify-center'>
               <div className='w-[96vw] bg-[#D4E6FB] h-[65vh] flex items-center justify-center pl-[3vw] rounded-[5vh] overflow-hidden'>
                 <div className='flex overflow-auto no-scrollbar'>
-                  <img className='h-[50vh] mx-4' src={figma} alt="" />
-                  <img className='h-[50vh] mx-4' src={rea} alt="" />
-                  <img className='h-[50vh] mx-4' src={cs} alt="" />
-                  <img className='h-[50vh] mx-4' src={mot} alt="" />
-                  <img className='h-[50vh] mx-4' src={gsa} alt="" />
-                  <img className='h-[50vh] mx-4' src={loco} alt="" />
-                  <img className='h-[50vh] mx-4' src={le} alt="" />
-                  <img className='h-[50vh] mx-4' src={three} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={figma} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={rea} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={cs} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={mot} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={gsa} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={loco} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={le} alt="" />
+                  <img loading='lazy' className='h-[50vh] mx-4' src={three} alt="" />
                 </div>
               </div>
             </div>
@@ -141,12 +141,12 @@ function Home() {
                   </div>
                 </div>
                 <div className='flex gap-[3vw] mt-[5vh]'>
-                  <div className=''><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Research till date <img className='' src={ArrowUp} alt="" /></h1></div>
+                  <div className='cursor-pointer' onClick={() => window.open('https://drive.google.com/drive/folders/1YHZoa_kdm5kZkjQB5roo3I6SlSSUtyCs?usp=sharing', '_blank')}><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Research till date <img loading='lazy' className='' src={ArrowUp} alt="" /></h1></div>
                   <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
                 </div>
                 <div className='flex items-center justify-center mt-[5vh]'>
                   <div className='w-[65vw] rounded-[5vh] overflow-hidden'>
-                    <img className='w-full h-full' src={glasses} alt="" />
+                    <img loading='lazy' className='w-full h-full' src={glasses} alt="" />
                   </div>
                 </div>
                 <div className='flex mt-[5vh] text-[3vh]'>
@@ -169,11 +169,11 @@ function Home() {
                   </div>
                 </div>
                 <div className='flex gap-[3vw] mt-[5vh]'>
-                  <div className=''><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img className='' src={ArrowUp} alt="" /></h1></div>
+                  <div className='cursor-pointer' onClick={() => window.open('https://www.figma.com/proto/Mpmg3jwIcROXx1ekLYqhdk/Cooking-App?page-id=0%3A1&node-id=166-381&viewport=310%2C-710%2C0.22&t=deGrIngxsDbVIPmw-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=166%3A462', '_blank')}><h1 className='text-white bg-black px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img loading='lazy' className='' src={ArrowUp} alt="" /></h1></div>
                   <div className='flex items-center justify-center gap-[1vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
                 </div>
                 <div className='flex mt-[8vh]'>
-                  <div className='w-1/2'><img className='w-[22vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
+                  <div className='w-1/2'><img loading='lazy' className='w-[22vw] h-full ml-[5vw]' src={CookIQ} alt="" /></div>
                   <div className='w-1/2 flex items-center '>
                     <h1 className='text-[3vh] text-[#606060]'><span className='text-black font-bold'>CookIQ</span> is a context-aware cooking application designed to reduce cognitive load for beginners and casual cooks. It provides step-by-step, visually guided assistance that adapts recipes based on available ingredients, kitchen tools, cooking pace, and dietary needs. CookIQ integrates with a smart cooking device, like an Instant Pot, to guide users accurately and efficiently through every step.</h1>
                   </div>
@@ -197,7 +197,7 @@ function Home() {
                     <Link to="https://github.com/itsmechaithanya">Github</Link>
                   </div>
                   <h1 className='text-[2.5vh] text-[#606060] mt-[2vh]'>cmangali@depaul.edu</h1>
-                  <img className='absolute top-0 right-[7vw]' src={f} alt="footer logo" />
+                  <img loading='lazy' className='absolute top-0 right-[7vw]' src={f} alt="footer logo" />
                 </div>
               </div>
             </div>
