@@ -7,8 +7,8 @@ import gsap from 'gsap'
 
 function About() {
   return (
-    <div className='w-full bg-white  font-GilroyMedium overflow-hidden'>
-      <div className='w-[90vw] mx-auto'>
+    <div className='w-full bg-white font-GilroyMedium overflow-hidden'>
+      <div className='w-[95vw] mx-auto'>
         <div className='px-[7vw] pt-[15vh] flex'>
           <h1 className='text-[8vh] font-black font-GilroyBold mb-[5vh]'>About Me :)</h1>
         </div>
