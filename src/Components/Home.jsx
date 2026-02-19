@@ -102,7 +102,7 @@ function Home() {
                 </div>
               </div>
               <div className='w-[50vw] flex items-center justify-center pr-[11vw] pl-[6vw]'>
-                <h1 className='font-normal text-[3.7vh] text-[#606060]' >I am a <span className='text-black font-medium'>UI/UX Designer</span>  and <span className='text-black '>Developer</span> passionate about creating seamless, user-centered experiences. I have worked with early-stage startups, building and executing design strategies from scratch. Along with intuitive design and interactive web development, I am also involved in <span className='text-black font-medium'>Machine Learning</span> and <span className='text-black font-medium'>Computer Vision</span>. My focus is on elevating digital platforms through innovation and creativity.</h1>
+                <h1 className='font-normal text-[3.7vh] text-[#606060]' >I am a <span className='text-black font-GilroyBold'>UI/UX Designer</span>  and <span className='text-black font-GilroyBold'>Developer</span> passionate about creating seamless, user-centered experiences. I have worked with early-stage startups, building and executing design strategies from scratch. Along with intuitive design and interactive web development, I am also involved in <span className='text-black font-GilroyBold'>Machine Learning</span> and <span className='text-black font-GilroyBold'>Computer Vision</span>. My focus is on elevating digital platforms through innovation and creativity.</h1>
               </div>
             </div>
             <div className=' h-[50vh] w-full bg-black'></div>
