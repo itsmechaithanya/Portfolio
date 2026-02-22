@@ -10,9 +10,9 @@ function About() {
     <div className='w-full bg-white font-GilroyMedium overflow-hidden'>
       <div className='w-[95vw] mx-auto'>
         <div className='px-[7vw] pt-[15vh] flex'>
-          <h1 className='text-[8vh] font-black font-GilroyBold mb-[5vh]'>About Me :)</h1>
+          <h1 className='text-[5.5vh] md:text-[8vh] font-black font-GilroyBold mb-[3vh] md:mb-[5vh] leading-none'>About Me :)</h1>
         </div>
-        <div className='px-[7vw] text-[3vh] font-medium leading-[5vh] text-[#606060] space-y-[4vh] mb-[15vh]'>
+        <div className='px-[7vw] text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060] space-y-[3vh] md:space-y-[4vh] mb-[10vh] md:mb-[15vh]'>
           <p>
             I’m Chaithanya, A UX Designer and Web Developer with a passion for crafting engaging and impactful digital experiences. My journey began with web development, but I quickly became fascinated by the ‘Why’ behind user interactions. This curiosity led me to explore UX design, where I discovered my passion for solving complex problems through intuitive and <span className='text-black font-GilroyBold'>User Centered</span> solutions.
           </p>
@@ -28,13 +28,13 @@ function About() {
         </div>
 
         {/* Work Experience */}
-        <div className='px-[7vw] mb-[15vh]'>
-          <h1 className='text-[6vh] tracking-tighter font-GilroyBold mb-[5vh]'>Work Experience</h1>
-          <div className='text-[3vh] font-medium leading-[5vh] text-[#606060] space-y-[4vh]'>
+        <div className='px-[7vw] mb-[10vh] md:mb-[15vh]'>
+          <h1 className='text-[4.5vh] md:text-[6vh] tracking-tighter font-GilroyBold mb-[3vh] md:mb-[5vh] leading-[5vh]'>Work Experience</h1>
+          <div className='text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060] space-y-[3vh] md:space-y-[4vh]'>
             <p>
               During my 10 months at <span className='text-black font-GilroyBold'>NGE Industries</span> as a Web Developer <span className='text-black font-GilroyBold'>Intern</span>, I played a pivotal role in modernizing the company’s digital presence by designing user-centered platforms and improving overall functionality.
             </p>
-            <div className='space-y-[4vh]'>
+            <div className='space-y-[3vh] md:space-y-[4vh]'>
               <p>
                 Conducting in-depth <span className='text-black font-GilroyBold'>user research</span> to inform design decisions and align solutions with business objectives.
               </p>
@@ -58,28 +58,28 @@ function About() {
         </div>
 
         {/* Outside Work */}
-        <div className='px-[7vw] mb-[15vh]'>
-          <h1 className='text-[6vh] tracking-tighter font-GilroyBold'>What am I like outside of work?</h1>
-          <h1 className='text-[3vh] text-[#606060] font-medium mb-[5vh]'>I'm glad you asked.</h1>
+        <div className='px-[7vw] mb-[10vh] md:mb-[15vh]'>
+          <h1 className='text-[4.5vh] md:text-[6vh] tracking-tighter leading-[5vh] md:leading-[6.5vh] font-GilroyBold'>What am I like outside of work?</h1>
+          <h1 className='text-[2.2vh] md:text-[3vh] text-[#606060] font-medium mb-[4vh] md:mb-[5vh] mt-[1vh] md:mt-0'>I'm glad you asked.</h1>
 
-          <div className='flex gap-[5vw] items-center'>
-            <div className='w-[35vw] shrink-0'>
+          <div className='flex flex-col md:flex-row gap-[3vh] md:gap-[5vw] items-center'>
+            <div className='w-full md:w-[35vw] shrink-0'>
               <img src={abk} alt="ISKCON" className='w-full rounded-[3vh]' />
             </div>
-            <div className='text-[3vh] font-medium leading-[5vh] text-[#606060]'>
+            <div className='text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060]'>
               <p>
                 I follow <span className='text-black font-GilroyBold'>ISKCON</span> (International Society for Krishna Consciousness), and its teachings inspire me to live with a deeper sense of purpose, mindfulness, and compassion. The spiritual practices and values have a significant influence on how I approach life, helping me maintain balance and focus amidst the demands of work and daily life.
               </p>
             </div>
           </div>
 
-          <div className='flex gap-[5vw] items-center mt-[5vh]'>
-            <div className='text-[3vh] font-medium leading-[5vh] text-[#606060]'>
+          <div className='flex flex-col-reverse md:flex-row gap-[3vh] md:gap-[5vw] items-center mt-[5vh]'>
+            <div className='text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060]'>
               <p>
                 I’m also an avid <span className='text-black font-GilroyBold'>bike enthusiast</span>. Riding my Continental GT from Royal Enfield is one of my favorite ways to unwind and embrace adventure. The bike’s classic style and performance reflect my love for exploring new places and pushing boundaries. It’s not just about the ride it’s about the sense of freedom, the thrill of the open road, and the opportunity to disconnect and recharge in nature.
               </p>
             </div>
-            <div className='w-[35vw] shrink-0'>
+            <div className='w-full md:w-[35vw] shrink-0'>
               <img src={abb} alt="Bike" className='w-full rounded-[3vh]' />
             </div>
           </div>

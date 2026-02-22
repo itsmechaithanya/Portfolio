@@ -12,7 +12,9 @@ import ScrollToTop from "./ScrollToTop";
 
 
 function App() {
-	const locomotiveScroll = new LocomotiveScroll();
+	// Initialize locomotive scroll only on non-mobile devices (min-width: 768px)
+	const isMobile = window.innerWidth < 768;
+	const locomotiveScroll = !isMobile ? new LocomotiveScroll() : null;
 
 	return (
 		<>
