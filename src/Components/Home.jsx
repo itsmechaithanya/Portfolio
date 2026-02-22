@@ -70,7 +70,7 @@ function Home() {
 
   return (
     <div ref={containerRef}>
-      <div className="w-screen overflow-hidden font-GilroyMedium">
+      <div className="w-[100vw] overflow-hidden font-GilroyMedium">
         <div>
           <div ref={heroRef} className=' lg:h-screen h-[95vh] w-full relative'>
             <video ref={videoRef} className='h-[112vh] lg:h-screen w-full object-cover absolute' src={Hero} autoPlay muted loop></video>

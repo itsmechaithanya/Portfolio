@@ -38,26 +38,34 @@ function Navbar() {
   }, [])
 
   useEffect(() => {
+    if (!menuRef.current) return;
+
+    // Kill existing tweens to prevent overlap jitter if toggled spam
+    gsap.killTweensOf(menuRef.current);
+    gsap.killTweensOf(".mobile-nav-item");
+
     if (isMenuOpen) {
+      gsap.set(menuRef.current, { display: "block" });
       gsap.to(menuRef.current, {
         height: "auto",
         opacity: 1,
         duration: 0.5,
         ease: "power3.out",
-        display: "block"
       })
       gsap.fromTo(
         ".mobile-nav-item",
-        { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.4, stagger: 0.1, ease: "power2.out", delay: 0.2 }
+        { y: 15, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.4, stagger: 0.05, ease: "power2.out", delay: 0.05 }
       )
     } else {
       gsap.to(menuRef.current, {
         height: 0,
         opacity: 0,
         duration: 0.4,
-        ease: "power3.in",
-        display: "none"
+        ease: "power3.out",
+        onComplete: () => {
+          gsap.set(menuRef.current, { display: "none" });
+        }
       })
     }
   }, [isMenuOpen])
@@ -66,7 +74,8 @@ function Navbar() {
     <div className='flex justify-center w-full z-50 fixed top-0'>
       <nav
         ref={navRef}
-        className={`flex flex-col px-[4vw] md:px-[2vw] mt-[2vh] py-[1.5vh] md:py-[1.5vh] backdrop-blur-md w-[90vw] md:w-[80vw] ${isMenuOpen ? 'rounded-[3vh]' : 'rounded-full'} bg-black/50 text-white shadow-lg border border-white/10 transition-all duration-300 hover:bg-black/70`}
+        style={{ transition: 'background-color 0.3s ease' }}
+        className={`flex flex-col px-[4vw] md:px-[2vw] mt-[2vh] py-[1.5vh] md:py-[1.5vh] backdrop-blur-md w-[90vw] md:w-[80vw] rounded-[4vh] md:rounded-full bg-black/50 text-white shadow-lg border border-white/10 hover:bg-black/70`}
       >
         <div className='flex justify-between items-center w-full'>
           {/* Logo */}
