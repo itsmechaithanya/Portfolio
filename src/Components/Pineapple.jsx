@@ -24,42 +24,42 @@ import UXP from '../assets/UXP.png' // Using as icon/logo placeholder if needed,
 
 function Pineapple() {
     return (
-        <div className='w-screen min-h-screen bg-white font-GilroyMedium'>
-            <div className='max-w-[80vw] mx-auto pt-[15vh]'>
+        <div className='w-screen min-h-screen bg-white font-GilroyMedium overflow-x-hidden'>
+            <div className='w-[90vw] md:max-w-[80vw] mx-auto pt-[10vh] md:pt-[15vh]'>
                 {/* Header */}
-                <div className='flex items-center gap-[1vw] mb-[8vh]'>
-                    <h1 className='text-[9vh] font-extrabold font-GilroyBold'>Pineapple</h1>
-                    <img loading='lazy' src={UXLogo} alt="Medical Icon" className='h-[9.5vh] mt-[-1vh]' />
+                <div className='flex items-center gap-[2vw] md:gap-[1vw] mb-[5vh] md:mb-[8vh] justify-center md:justify-start'>
+                    <h1 className='text-[6vh] md:text-[9vh] font-extrabold font-GilroyBold'>Pineapple</h1>
+                    <img loading='lazy' src={UXLogo} alt="Medical Icon" className='h-[6vh] md:h-[9.5vh] mt-[-1vh]' />
                 </div>
 
                 {/* Description */}
-                <p className='text-[2.6vh] text-[#606060] leading-[4vh] w-[80vw] mb-[7vh] font-medium'>
+                <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4vh] w-full md:w-[80vw] mb-[5vh] md:mb-[7vh] font-medium text-center md:text-left'>
                     The Pineapple Project Was Born From A Need To Create A Unified Navigation System That Addresses The Fragmented Nature Of Healthcare Access, Specifically Within The Complex Landscape Of Chicago.
                 </p>
 
                 {/* Image Section */}
-                <div className='w-full bg-[#EFF0FF] rounded-[6vh] flex justify-center mb-[12vh]'>
+                <div className='w-full bg-[#EFF0FF] rounded-[4vh] md:rounded-[6vh] flex justify-center mb-[8vh] md:mb-[12vh] overflow-hidden'>
                     <img loading='lazy' src={USP} alt="Pineapple App Screens" className='w-full object-contain' />
                 </div>
 
                 {/* Quote Section */}
-                <div className='flex justify-center mb-[12vh]'>
-                    <h2 className='text-[3.3vh] font-GilroyBold leading-[5vh] text-center max-w-[55vw]'>
-                        "How Might We Design A Healthcare Platform That <br />
-                        Simplifies Scheduling, Clarifies Insurance Coverage, <br />
-                        And Ensures Financial Transparency For Diverse <br />
+                <div className='flex justify-center mb-[8vh] md:mb-[12vh]'>
+                    <h2 className='text-[2.4vh] md:text-[3.3vh] font-GilroyBold leading-[4vh] md:leading-[5vh] text-center w-full md:max-w-[55vw] px-[4vw] md:px-0'>
+                        "How Might We Design A Healthcare Platform That <br className='hidden md:block' />
+                        Simplifies Scheduling, Clarifies Insurance Coverage, <br className='hidden md:block' />
+                        And Ensures Financial Transparency For Diverse <br className='hidden md:block' />
                         Users In Chicago?"
                     </h2>
                 </div>
 
                 {/* Project Background Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Project Background And Personal Journey</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Project Background And Personal Journey</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='text-[2.6vh] text-[#606060] leading-[4.5vh] max-w-[80vw] space-y-[4vh] font-medium'>
+                    <div className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] w-full md:max-w-[80vw] space-y-[3vh] md:space-y-[4vh] font-medium text-center md:text-left'>
                         <p>
                             Our Research Into The Healthcare Domain Revealed A Startling Reality: <span className='text-black font-GilroyBold'>One In Five U.S. Adults</span> Under The Age Of 65 Face Non-Cost Barriers To Care, Such As Appointment Delays And Transportation Limitations.
                         </p>
@@ -74,24 +74,24 @@ function Pineapple() {
 
                 {/* Core Features Section */}
                 <div className='mb-[5vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Core Features</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[8vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Core Features</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[8vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[4vh] md:py-[5vh] flex flex-col md:flex-row items-center justify-between gap-[4vh] md:gap-0'>
                         {/* Left Side - Phone Image */}
-                        <div className='w-[50%] flex justify-center'>
+                        <div className='w-full md:w-[50%] flex justify-center order-2 md:order-1'>
                             {/* Placeholder for the specific "Find Hospitals" screen. */}
-                            <img loading='lazy' src={Find} alt="Find Hospitals Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={Find} alt="Find Hospitals Feature" className='h-[45vh] md:h-[70vh] object-contain' />
                         </div>
 
                         {/* Right Side - Text */}
-                        <div className='w-[40%] flex flex-col justify-between h-[55vh]'>
-                            <h3 className='text-[5vh] font-GilroyBold leading-[6vh]'>
-                                Find Hospitals <br /> With Ease.
+                        <div className='w-full md:w-[40%] flex flex-col justify-center h-auto md:h-[55vh] order-1 md:order-2 text-center md:text-left'>
+                            <h3 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh] mb-[2vh] md:mb-[4vh]'>
+                                Find Hospitals <br className='hidden md:block' /> With Ease.
                             </h3>
-                            <p className='text-[2.6vh] text-[#606060] font-medium'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium'>
                                 Network Filtering: Clear visual distinctio between providers covered by your insurance and those that aren't.
                             </p>
                         </div>
@@ -100,28 +100,19 @@ function Pineapple() {
 
                 {/* Filter Feature Section */}
                 <div className='mb-[5vh]'>
-                    {/* The design shows this section without a "Core Features" title again, just another card. 
-                        Wait, the previous "Core Features" title was outside the card.
-                        Does this card belong to "Core Features"? Yes.
-                        I should probably wrap these cards or just add another card below. 
-                        The user sent "add this section" with an image of a card.
-                        It looks like a separate card. I will add it as another card below the previous one. */}
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[4vh] md:py-[5vh] flex flex-col md:flex-row items-center justify-between gap-[4vh] md:gap-0'>
                         {/* Left Side - Phone Image (2 phones) */}
-                        <div className='w-[50%] flex gap-[2vw] justify-center'>
-                            {/* Placeholder: The design shows 2 phones. I don't have a 2-phone asset named 'Filter'. 
-                                 I'll use UXPineapple (3 phones) or Find (1 phone) as placeholder.
-                                 I'll use UXPineapple for now as it depicts multiple screens. */}
-                            <img loading='lazy' src={Doctor} alt="Filter Doctors Feature" className='h-[70vh] object-contain' />
-                            <img loading='lazy' src={Problem} alt="Filter Doctors Feature" className='h-[70vh] object-contain' />
+                        <div className='w-full md:w-[50%] flex gap-[2vw] justify-center order-2 md:order-1'>
+                            <img loading='lazy' src={Doctor} alt="Filter Doctors Feature" className='h-[45vh] md:h-[70vh] object-contain' />
+                            <img loading='lazy' src={Problem} alt="Filter Doctors Feature" className='h-[45vh] md:h-[70vh] object-contain' />
                         </div>
 
                         {/* Right Side - Text */}
-                        <div className='w-[40%]'>
-                            <h3 className='text-[5vh] font-GilroyBold mb-[8vh] leading-[6vh]'>
-                                Filter Out Based <br /> On Dates Or <br /> Problems.
+                        <div className='w-full md:w-[40%] flex flex-col justify-center order-1 md:order-2 text-center md:text-left'>
+                            <h3 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh] mb-[2vh] md:mb-[5vh]'>
+                                Filter Out Based <br className='hidden md:block' /> On Dates Or <br className='hidden md:block' /> Problems.
                             </h3>
-                            <p className='text-[2.6vh] text-[#606060] font-medium leading-[4vh]'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium leading-[3.5vh] md:leading-[4vh]'>
                                 Our advanced filtering system allows patients to find specialists based on their specific health <span className='text-black font-GilroyBold'>Problems</span> or desired <span className='text-black font-GilroyBold'>Appointment Dates</span>, reducing the barrier to timely care.
                             </p>
                         </div>
@@ -130,23 +121,23 @@ function Pineapple() {
 
                 {/* Personalized Bill Estimations Section */}
                 <div className='mb-[5vh]'>
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[8vh]'>
-                        <div className='mb-[5vh]'>
-                            <h2 className='text-[5vh] font-GilroyBold leading-[6vh]'>
-                                Personalized Bill <br /> Estimations.
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[5vh] md:py-[8vh] text-center md:text-left'>
+                        <div className='mb-[4vh] md:mb-[5vh]'>
+                            <h2 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh]'>
+                                Personalized Bill <br className='hidden md:block' /> Estimations.
                             </h2>
                         </div>
 
-                        <div className='flex justify-center mb-[5vh] gap-[2vw]'>
+                        <div className='flex justify-center mb-[4vh] md:mb-[5vh] gap-[2vw]'>
                             {/* Placeholder for the 3 phones image showing bill estimation flow. 
                                 Using UXPineapple as it depicts 3 phones, which matches the layout. */}
-                            <img loading='lazy' src={B1} alt="Bill Estimation Screens" className='w-full object-contain' />
-                            <img loading='lazy' src={B2} alt="Bill Estimation Screens" className='w-full object-contain' />
-                            <img loading='lazy' src={B3} alt="Bill Estimation Screens" className='w-full object-contain' />
+                            <img loading='lazy' src={B1} alt="Bill Estimation Screens" className='w-[30%] md:w-auto h-[35vh] md:h-[60vh] object-contain' />
+                            <img loading='lazy' src={B2} alt="Bill Estimation Screens" className='w-[30%] md:w-auto h-[35vh] md:h-[60vh] object-contain' />
+                            <img loading='lazy' src={B3} alt="Bill Estimation Screens" className='w-[30%] md:w-auto h-[35vh] md:h-[60vh] object-contain' />
                         </div>
 
                         <div className=''>
-                            <p className='text-[2.6vh] text-[#606060] font-medium leading-[4vh]'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium leading-[3.5vh] md:leading-[4vh]'>
                                 Say goodbye to surprise medical bills. Our estimation tool allows users to select their hospital, doctor, and specific procedure to generate a detailed cost projection before the appointment.
                             </p>
                         </div>
@@ -154,21 +145,21 @@ function Pineapple() {
                 </div>
 
                 {/* Seamless Insurance Management Section */}
-                <div className='mb-[12vh]'>
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[4vh] md:py-[5vh] flex flex-col md:flex-row items-center justify-between gap-[4vh] md:gap-0'>
                         {/* Left Side - Phone Image (2 phones) */}
-                        <div className='w-[50%] flex gap-[2vw] justify-center'>
+                        <div className='w-full md:w-[50%] flex gap-[2vw] justify-center order-2 md:order-1'>
                             {/* Placeholder: Using Doctor and Problem again as placeholders for the 2 insurance screens. */}
-                            <img loading='lazy' src={i1} alt="Insurance Management Feature" className='h-[70vh] object-contain' />
-                            <img loading='lazy' src={i2} alt="Insurance Management Feature" className='h-[70vh] object-contain' />
+                            <img loading='lazy' src={i1} alt="Insurance Management Feature" className='h-[45vh] md:h-[70vh] object-contain' />
+                            <img loading='lazy' src={i2} alt="Insurance Management Feature" className='h-[45vh] md:h-[70vh] object-contain' />
                         </div>
 
                         {/* Right Side - Text */}
-                        <div className='w-[40%] flex flex-col justify-center gap-[5vh]'>
-                            <h3 className='text-[5vh] font-GilroyBold leading-[6vh]'>
-                                Seamless <br /> Insurance <br /> Management.
+                        <div className='w-full md:w-[40%] flex flex-col justify-center gap-[2vh] md:gap-[5vh] order-1 md:order-2 text-center md:text-left'>
+                            <h3 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh]'>
+                                Seamless <br className='hidden md:block' /> Insurance <br className='hidden md:block' /> Management.
                             </h3>
-                            <p className='text-[2.6vh] text-[#606060] font-medium leading-[4vh]'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium leading-[3.5vh] md:leading-[4vh]'>
                                 Effortlessly digitize and track your benefits. With OCR scanning technology, adding a new insurance card takes seconds, instantly syncing your coverage details with our search and estimation tools.
                             </p>
                         </div>
@@ -176,27 +167,27 @@ function Pineapple() {
                 </div>
 
                 {/* Research: Competitive & Contextual Analysis Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[7vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Research: Competitive & Contextual Analysis</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[4vh] md:mb-[7vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Research: Competitive & Contextual Analysis</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='flex gap-[2vw]'>
+                    <div className='flex flex-col md:flex-row gap-[4vh] md:gap-[2vw]'>
                         {/* Zocdoc Card */}
-                        <div className='w-1/2 border border-[#D7D7D7] rounded-[4vh] p-[5vh] shadow-[0_4px_20px_0_rgba(0,0,0,0.05)]'>
-                            <div className='flex items-center gap-[2vh] mb-[5vh]'>
-                                <img loading='lazy' src={zocdoc} alt="Zocdoc Logo" className='w-[8vh] h-[8vh] object-contain' />
-                                <h3 className='text-[4vh] font-GilroyBold'>Zocdoc</h3>
+                        <div className='w-full md:w-1/2 border border-[#D7D7D7] rounded-[3vh] md:rounded-[4vh] p-[4vh] md:p-[5vh] shadow-[0_4px_20px_0_rgba(0,0,0,0.05)]'>
+                            <div className='flex items-center gap-[2vh] mb-[4vh] md:mb-[5vh]'>
+                                <img loading='lazy' src={zocdoc} alt="Zocdoc Logo" className='w-[6vh] md:w-[8vh] h-[6vh] md:h-[8vh] object-contain' />
+                                <h3 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Zocdoc</h3>
                             </div>
 
-                            <div className='space-y-[4vh]'>
+                            <div className='space-y-[3vh] md:space-y-[4vh]'>
                                 {/* Strengths */}
                                 <div>
-                                    <h4 className='text-[2.2vh] font-GilroyBold text-[#00C96F] mb-[2vh] flex items-center gap-[1vh]'>
-                                        <span className='text-[3vh]'>↗</span> STRENGTHS
+                                    <h4 className='text-[2vh] md:text-[2.2vh] font-GilroyBold text-[#00C96F] mb-[2vh] flex items-center gap-[1vh]'>
+                                        <span className='text-[2.5vh] md:text-[3vh]'>↗</span> STRENGTHS
                                     </h4>
-                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2.2vh] text-[#606060] font-medium'>
+                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium'>
                                         <li>Easy provider search and booking</li>
                                         <li>Wide network of doctors</li>
                                         <li>Good for quick appointment discovery</li>
@@ -205,10 +196,10 @@ function Pineapple() {
 
                                 {/* Weaknesses */}
                                 <div>
-                                    <h4 className='text-[2.2vh] font-GilroyBold text-[#FF4D4D] mb-[2vh] flex items-center gap-[1vh]'>
-                                        <span className='text-[3vh]'>↘</span> WEAKNESSES
+                                    <h4 className='text-[2vh] md:text-[2.2vh] font-GilroyBold text-[#FF4D4D] mb-[2vh] flex items-center gap-[1vh]'>
+                                        <span className='text-[2.5vh] md:text-[3vh]'>↘</span> WEAKNESSES
                                     </h4>
-                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2.2vh] text-[#606060] font-medium'>
+                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium'>
                                         <li>Search-first flow → Out-of-network surprises</li>
                                         <li>Inconsistent pricing information</li>
                                         <li>Hard to find fast or urgent appointments</li>
@@ -217,10 +208,10 @@ function Pineapple() {
 
                                 {/* Opportunities */}
                                 <div>
-                                    <h4 className='text-[2.2vh] font-GilroyBold text-[#3B82F6] mb-[2vh] flex items-center gap-[1vh]'>
-                                        <span className='text-[3vh]'>⚲</span> OPPORTUNITIES
+                                    <h4 className='text-[2vh] md:text-[2.2vh] font-GilroyBold text-[#3B82F6] mb-[2vh] flex items-center gap-[1vh]'>
+                                        <span className='text-[2.5vh] md:text-[3vh]'>⚲</span> OPPORTUNITIES
                                     </h4>
-                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2.2vh] text-[#606060] font-medium'>
+                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium'>
                                         <li>Add insurance-first onboarding</li>
                                         <li>Show real-time cost estimates</li>
                                         <li>Improve "fastest available" logic</li>
@@ -230,19 +221,19 @@ function Pineapple() {
                         </div>
 
                         {/* MyChart Card */}
-                        <div className='w-1/2 border border-[#D7D7D7] rounded-[4vh] p-[5vh] shadow-[0_4px_20px_0_rgba(0,0,0,0.05)]'>
-                            <div className='flex items-center gap-[2vh] mb-[5vh]'>
-                                <img loading='lazy' src={mychat} alt="MyChart Logo" className='w-[8vh] h-[8vh] object-contain' />
-                                <h3 className='text-[4vh] font-GilroyBold'>MyChart</h3>
+                        <div className='w-full md:w-1/2 border border-[#D7D7D7] rounded-[3vh] md:rounded-[4vh] p-[4vh] md:p-[5vh] shadow-[0_4px_20px_0_rgba(0,0,0,0.05)]'>
+                            <div className='flex items-center gap-[2vh] mb-[4vh] md:mb-[5vh]'>
+                                <img loading='lazy' src={mychat} alt="MyChart Logo" className='w-[6vh] md:w-[8vh] h-[6vh] md:h-[8vh] object-contain' />
+                                <h3 className='text-[3vh] md:text-[4vh] font-GilroyBold'>MyChart</h3>
                             </div>
 
-                            <div className='space-y-[4vh]'>
+                            <div className='space-y-[3vh] md:space-y-[4vh]'>
                                 {/* Strengths */}
                                 <div>
-                                    <h4 className='text-[2.2vh] font-GilroyBold text-[#00C96F] mb-[2vh] flex items-center gap-[1vh]'>
-                                        <span className='text-[3vh]'>↗</span> STRENGTHS
+                                    <h4 className='text-[2vh] md:text-[2.2vh] font-GilroyBold text-[#00C96F] mb-[2vh] flex items-center gap-[1vh]'>
+                                        <span className='text-[2.5vh] md:text-[3vh]'>↗</span> STRENGTHS
                                     </h4>
-                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2.2vh] text-[#606060] font-medium'>
+                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium'>
                                         <li>Access to medical records and test results</li>
                                         <li>Direct connection to healthcare providers</li>
                                         <li>Useful for post-visit documentation</li>
@@ -251,10 +242,10 @@ function Pineapple() {
 
                                 {/* Weaknesses */}
                                 <div>
-                                    <h4 className='text-[2.2vh] font-GilroyBold text-[#FF4D4D] mb-[2vh] flex items-center gap-[1vh]'>
-                                        <span className='text-[3vh]'>↘</span> WEAKNESSES
+                                    <h4 className='text-[2vh] md:text-[2.2vh] font-GilroyBold text-[#FF4D4D] mb-[2vh] flex items-center gap-[1vh]'>
+                                        <span className='text-[2.5vh] md:text-[3vh]'>↘</span> WEAKNESSES
                                     </h4>
-                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2.2vh] text-[#606060] font-medium'>
+                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium'>
                                         <li>Manual insurance verification</li>
                                         <li>No upfront pricing clarity</li>
                                         <li>Fragmented and glitchy booking flows</li>
@@ -263,10 +254,10 @@ function Pineapple() {
 
                                 {/* Opportunities */}
                                 <div>
-                                    <h4 className='text-[2.2vh] font-GilroyBold text-[#3B82F6] mb-[2vh] flex items-center gap-[1vh]'>
-                                        <span className='text-[3vh]'>⚲</span> OPPORTUNITIES
+                                    <h4 className='text-[2vh] md:text-[2.2vh] font-GilroyBold text-[#3B82F6] mb-[2vh] flex items-center gap-[1vh]'>
+                                        <span className='text-[2.5vh] md:text-[3vh]'>⚲</span> OPPORTUNITIES
                                     </h4>
-                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2.2vh] text-[#606060] font-medium'>
+                                    <ul className='list-disc pl-[2.5vh] space-y-[1vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium'>
                                         <li>Simplify scheduling experience</li>
                                         <li>Improve insurance and claims tracking</li>
                                         <li>Add accessibility and caregiver features</li>
@@ -278,58 +269,58 @@ function Pineapple() {
                 </div>
 
                 {/* User Research & Synthesis Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[7vh] '>
-                        <h2 className='text-[4vh] font-GilroyBold'>User Research & Synthesis</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[4vh] md:mb-[7vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>User Research & Synthesis</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='space-y-[8vh]'>
+                    <div className='space-y-[6vh] md:space-y-[8vh]'>
                         {/* User Surveys and Interviews */}
-                        <div>
-                            <div className='flex items-center gap-[2vh] mb-[3vh]'>
+                        <div className='text-center md:text-left'>
+                            <div className='flex flex-col md:flex-row items-center gap-[2vh] mb-[2vh] md:mb-[3vh]'>
                                 <div className='w-[6vh] h-[6vh] bg-[#E0E7FF] rounded-[1.5vh] flex items-center justify-center text-[#3B82F6] text-[3vh]'>
                                     👥
                                 </div>
-                                <h3 className='text-[3.5vh] font-GilroyBold'>User Surveys and Interviews</h3>
+                                <h3 className='text-[3vh] md:text-[3.5vh] font-GilroyBold'>User Surveys and Interviews</h3>
                             </div>
-                            <p className='text-[2.6vh] text-[#606060] leading-[4.5vh] font-medium'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] font-medium'>
                                 We embarked on a qualitative research mission, conducting twelve semi-structured contextual interviews with a diverse demographic ranging from 20 to 72 years of age. These participants included international students, working professionals, and retirees, allowing us to capture a wide range of perspectives on healthcare navigation. Each interview lasted between 15 and 30 minutes and was conducted via Zoom or in person, providing users with a safe space to share their frustrations regarding providers, billing, and digital portals in their own words.
                             </p>
                         </div>
 
                         {/* User Surveys Takeaways */}
-                        <div>
-                            <div className='flex items-center gap-[2vh] mb-[3vh]'>
+                        <div className='text-center md:text-left'>
+                            <div className='flex flex-col md:flex-row items-center gap-[2vh] mb-[2vh] md:mb-[3vh]'>
                                 <div className='w-[6vh] h-[6vh] bg-[#E0E7FF] rounded-[1.5vh] flex items-center justify-center text-[#3B82F6] text-[3vh]'>
                                     📈
                                 </div>
-                                <h3 className='text-[3.5vh] font-GilroyBold'>User Surveys Takeaways</h3>
+                                <h3 className='text-[3vh] md:text-[3.5vh] font-GilroyBold'>User Surveys Takeaways</h3>
                             </div>
-                            <p className='text-[2.6vh] text-[#606060] leading-[4.5vh] font-medium'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] font-medium'>
                                 The feedback from these sessions highlighted a universal demand for a more integrated, transparent solution that prioritizes the patient's time and financial peace of mind. We discovered that even highly health-literate professionals were frustrated by the constant back-and-forth between insurers and providers, which often led to repeated medical tests and delayed treatments. International students specifically noted the added layer of "administrative complexity" and cultural adjustment required to understand the U.S. insurance system, which often led to emotional strain and delayed care.
                             </p>
                         </div>
                     </div>
                 </div>
                 {/* Card Sorts And Affinity Mapping Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[7vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Card Sorts And Affinity Mapping</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[4vh] md:mb-[7vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Card Sorts And Affinity Mapping</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
                     {/* Goals and Frustrations Cards */}
-                    <div className='flex gap-[2vw] mb-[5vh]'>
+                    <div className='flex flex-col md:flex-row gap-[4vh] md:gap-[2vw] mb-[5vh]'>
                         {/* Goals Card */}
-                        <div className='w-1/2 border border-[#F2F2F2] bg-white rounded-[4vh] p-[5vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.03)]'>
-                            <div className='flex items-center gap-[2vh] mb-[4vh]'>
+                        <div className='w-full md:w-1/2 border border-[#F2F2F2] bg-white rounded-[3vh] md:rounded-[4vh] p-[4vh] md:p-[5vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.03)]'>
+                            <div className='flex items-center gap-[2vh] mb-[3vh] md:mb-[4vh]'>
                                 <div className='w-[6vh] h-[6vh] bg-[#D1FAE5] rounded-[1.5vh] flex items-center justify-center text-[#10B981] text-[3vh] font-bold'>
                                     ◎
                                 </div>
-                                <h3 className='text-[3.5vh] font-GilroyBold'>Goals</h3>
+                                <h3 className='text-[3vh] md:text-[3.5vh] font-GilroyBold'>Goals</h3>
                             </div>
-                            <ul className='space-y-[2.5vh]'>
+                            <ul className='space-y-[2vh] md:space-y-[2.5vh]'>
                                 {[
                                     "Find the right healthcare provider quickly without confusion",
                                     "Clearly understand insurance coverage before booking appointments",
@@ -337,7 +328,7 @@ function Pineapple() {
                                     "Schedule appointments easily with minimal steps",
                                     "Feel confident and informed while making healthcare decisions"
                                 ].map((item, index) => (
-                                    <li key={index} className='flex items-start gap-[2vh] text-[2.2vh] text-[#606060] font-medium leading-[3.5vh]'>
+                                    <li key={index} className='flex items-start gap-[2vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium leading-[3vh] md:leading-[3.5vh]'>
                                         <span className='text-[#10B981] font-bold mt-[0.5vh]'>✓</span>
                                         <span>{item}</span>
                                     </li>
@@ -346,14 +337,14 @@ function Pineapple() {
                         </div>
 
                         {/* Frustrations Card */}
-                        <div className='w-1/2 border border-[#F2F2F2] bg-white rounded-[4vh] p-[5vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.03)]'>
-                            <div className='flex items-center gap-[2vh] mb-[4vh]'>
+                        <div className='w-full md:w-1/2 border border-[#F2F2F2] bg-white rounded-[3vh] md:rounded-[4vh] p-[4vh] md:p-[5vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.03)]'>
+                            <div className='flex items-center gap-[2vh] mb-[3vh] md:mb-[4vh]'>
                                 <div className='w-[6vh] h-[6vh] bg-[#FFE4E6] rounded-[1.5vh] flex items-center justify-center text-[#F43F5E] text-[3vh] font-bold'>
                                     ⚠
                                 </div>
-                                <h3 className='text-[3.5vh] font-GilroyBold'>Frustrations</h3>
+                                <h3 className='text-[3vh] md:text-[3.5vh] font-GilroyBold'>Frustrations</h3>
                             </div>
-                            <ul className='space-y-[2.5vh]'>
+                            <ul className='space-y-[2vh] md:space-y-[2.5vh]'>
                                 {[
                                     "Healthcare information is scattered across multiple platforms",
                                     "Insurance details are unclear, confusing, or hard to verify",
@@ -361,7 +352,7 @@ function Pineapple() {
                                     "Medical terminology is difficult to understand",
                                     "Lack of transparency creates anxiety and delays in seeking care"
                                 ].map((item, index) => (
-                                    <li key={index} className='flex items-start gap-[2vh] text-[2.2vh] text-[#606060] font-medium leading-[3.5vh]'>
+                                    <li key={index} className='flex items-start gap-[2vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium leading-[3vh] md:leading-[3.5vh]'>
                                         <span className='text-[#F43F5E] font-bold mt-[0.5vh]'>✕</span>
                                         <span>{item}</span>
                                     </li>
@@ -371,13 +362,13 @@ function Pineapple() {
                     </div>
 
                     {/* User Quotes Section */}
-                    <div className='bg-[#EFF0FF] rounded-[6vh] p-[5vh]'>
-                        <div className='flex items-center gap-[2vh] mb-[3vh]'>
-                            <span className='text-[6vh] text-[#3B82F6] font-GilroyBold font-serif'>”</span>
-                            <h3 className='text-[4vh] font-GilroyBold'>User Quotes</h3>
+                    <div className='bg-[#EFF0FF] rounded-[4vh] md:rounded-[6vh] p-[4vh] md:p-[5vh]'>
+                        <div className='flex items-center gap-[2vh] mb-[3vh] justify-center md:justify-start'>
+                            <span className='text-[5vh] md:text-[6vh] text-[#3B82F6] font-GilroyBold font-serif'>”</span>
+                            <h3 className='text-[3vh] md:text-[4vh] font-GilroyBold'>User Quotes</h3>
                         </div>
 
-                        <div className='grid grid-cols-2 gap-x-[5vh] gap-y-[6vh]'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-x-[5vh] gap-y-[4vh] md:gap-y-[6vh]'>
                             {[
                                 "\"I don't know if my insurance actually covers this.\"",
                                 "\"I'm afraid of getting a bill I wasn't expecting.\"",
@@ -385,8 +376,8 @@ function Pineapple() {
                                 "\"There's too much information, but no clear answers.\""
                             ].map((quote, index) => (
                                 <div key={index} className='flex gap-[2vh]'>
-                                    <div className='w-[0.5vh] bg-[#3B82F6] rounded-full h-full min-h-[6vh]'></div>
-                                    <p className='text-[2.8vh] text-[#606060] font-medium italic leading-[4vh]'>
+                                    <div className='w-[0.5vh] bg-[#3B82F6] rounded-full h-full min-h-[5vh] md:min-h-[6vh]'></div>
+                                    <p className='text-[2.2vh] md:text-[2.8vh] text-[#606060] font-medium italic leading-[3vh] md:leading-[4vh]'>
                                         {quote}
                                     </p>
                                 </div>
@@ -396,41 +387,41 @@ function Pineapple() {
                 </div>
 
                 {/* Meet The Users: Personas, Task Flows, And Journeys Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Meet The Users: Personas, Task Flows, And Journeys</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Meet The Users: Personas, Task Flows, And Journeys</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='text-[2.6vh] text-[#606060] leading-[4.5vh] max-w-[80vw] font-medium mb-[8vh]'>
+                    <div className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] w-full md:max-w-[80vw] font-medium mb-[5vh] md:mb-[8vh] text-center md:text-left'>
                         <p>
                             To Humanize Our Data, We Developed Three Detailed Personas That Truly Reflected The Aspirations And Needs Of Our Target Audience. Strawberry, An International Graduate Student, Represents Users Who Value Time And Predictable Costs But Are Often Overwhelmed By Public Transit And Medical Jargon. Blueberry, A Working Professional And Physiotherapist, Illustrates The Frustrations Of Those Who Are Health-Literate Yet Exhausted By Poor Coordination And Unexpected Billing. Finally, Watermelon, A 72-Year-Old Retired Professor, Embodies The Accessibility Barriers And Digital Fatigue Faced By Older Adults Who Require Simplified Interfaces And Caregiver Support.
                         </p>
                     </div>
 
                     {/* Personas Images */}
-                    <div className='space-y-[5vh]'>
+                    <div className='space-y-[3vh] md:space-y-[5vh]'>
                         {/* Row 1: Strawberry & Watermelon */}
-                        <div className='flex gap-[2vw] justify-center'>
-                            <img loading='lazy' src={p1} alt="Persona Strawberry" className='w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
-                            <img loading='lazy' src={p2} alt="Persona Watermelon" className='w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
+                        <div className='flex flex-col md:flex-row gap-[3vh] md:gap-[2vw] justify-center'>
+                            <img loading='lazy' src={p1} alt="Persona Strawberry" className='w-full md:w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)] rounded-[3vh] md:rounded-[4vh]' />
+                            <img loading='lazy' src={p2} alt="Persona Watermelon" className='w-full md:w-[48%] object-contain shadow-[0_4px_40px_0_rgba(0,0,0,0.05)] rounded-[3vh] md:rounded-[4vh]' />
                         </div>
 
                         {/* Row 2: Blueberry */}
                         <div className='flex justify-center'>
-                            <img loading='lazy' src={p3} alt="Persona Blueberry" className='w-[48%] object-contain rounded-[4vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
+                            <img loading='lazy' src={p3} alt="Persona Blueberry" className='w-full md:w-[48%] object-contain rounded-[3vh] md:rounded-[4vh] shadow-[0_4px_40px_0_rgba(0,0,0,0.05)]' />
                         </div>
                     </div>
                 </div>
 
                 {/* Exploration And Ideation: IA And Wireframes Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Exploration And Ideation: IA And Wireframes</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Exploration And Ideation: IA And Wireframes</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='text-[2.6vh] text-[#606060] leading-[4.5vh] max-w-[80vw] font-medium'>
+                    <div className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] w-full md:max-w-[80vw] font-medium text-center md:text-left'>
                         <p>
                             The Development Of Pineapple Was Non-Linear Journey That Culminated In This Final 3th Version. We Progressed Through Three Major Milestones Moving From Initial Research And Low-Fidelity Sketches To Mid-Fidelity Wireframes And, Ultimately, This High-Fidelity, User-Validated Design. Each Iteration Allowed Us To Pivot From A Broad Conceptual Prototype To A Focused Solution, Continuously "Subtracting To Add Value" By Prioritizing The Core Booking And Billing Features Our Users Needed Most.
                         </p>
@@ -439,20 +430,20 @@ function Pineapple() {
 
                 {/* Version 1: Conceptual Paper Prototyping Section */}
                 <div className='mb-[5vh]'>
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[4vh] md:py-[5vh] flex flex-col md:flex-row items-center justify-between gap-[4vh] md:gap-0'>
                         {/* Left Side - Image */}
-                        <div className='w-[50%] flex gap-[2vw] justify-center'>
-                            <img loading='lazy' src={paper} alt="Paper Prototype" className='w-full object-contain rounded-[4vh] h-[70vh]' />
+                        <div className='w-full md:w-[50%] flex gap-[2vw] justify-center order-2 md:order-1'>
+                            <img loading='lazy' src={paper} alt="Paper Prototype" className='w-full object-contain rounded-[3vh] md:rounded-[4vh] h-[35vh] md:h-[70vh]' />
                         </div>
 
                         {/* Right Side - Text */}
-                        <div className='w-[40%] flex flex-col justify-center gap-[5vh]'>
-                            <h3 className='text-[5vh] font-GilroyBold leading-[6vh]'>
-                                Version 1: <br />
-                                Conceptual Paper <br />
+                        <div className='w-full md:w-[40%] flex flex-col justify-center gap-[2vh] md:gap-[5vh] order-1 md:order-2 text-center md:text-left'>
+                            <h3 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh]'>
+                                Version 1: <br className='hidden md:block' />
+                                Conceptual Paper <br className='hidden md:block' />
                                 Prototyping
                             </h3>
-                            <p className='text-[2.6vh] text-[#606060] font-medium leading-[4vh]'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium leading-[3.5vh] md:leading-[4vh]'>
                                 Information Architecture Exploration. Rapid Ideation Of Core Features. Initial User Journey Mapping.
                             </p>
                         </div>
@@ -461,21 +452,21 @@ function Pineapple() {
 
                 {/* Version 2: High-Fidelity Exploration Section */}
                 <div className='mb-[5vh]'>
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[4vh] md:py-[5vh] flex flex-col md:flex-row items-center justify-between gap-[4vh] md:gap-0'>
                         {/* Left Side - Image */}
-                        <div className='w-[55%] flex gap-[2vw] justify-center'>
-                            <img loading='lazy' src={v2} alt="High-Fidelity Exploration" className='w-full object-contain h-[70vh]' />
-                            <img loading='lazy' src={v22} alt="High-Fidelity Exploration" className='w-full object-contain h-[70vh]' />
+                        <div className='w-full md:w-[55%] flex gap-[2vw] justify-center order-2 md:order-1'>
+                            <img loading='lazy' src={v2} alt="High-Fidelity Exploration" className='w-full object-contain h-[35vh] md:h-[70vh]' />
+                            <img loading='lazy' src={v22} alt="High-Fidelity Exploration" className='w-full object-contain h-[35vh] md:h-[70vh]' />
                         </div>
 
                         {/* Right Side - Text */}
-                        <div className='w-[35%] flex flex-col justify-center gap-[5vh]'>
-                            <h3 className='text-[5vh] font-GilroyBold leading-[6vh]'>
-                                Version 2: <br />
-                                High-Fidelity <br />
+                        <div className='w-full md:w-[35%] flex flex-col justify-center gap-[2vh] md:gap-[5vh] order-1 md:order-2 text-center md:text-left'>
+                            <h3 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh]'>
+                                Version 2: <br className='hidden md:block' />
+                                High-Fidelity <br className='hidden md:block' />
                                 Exploration
                             </h3>
-                            <p className='text-[2.6vh] text-[#606060] font-medium leading-[4vh]'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium leading-[3.5vh] md:leading-[4vh]'>
                                 Transitioned To Digital Grid Layout. Introduction Of Color-Coded Categories. Added Schedule Now Promotional Banner.
                             </p>
                         </div>
@@ -483,22 +474,22 @@ function Pineapple() {
                 </div>
 
                 {/* Version 3: The Final Refined Section */}
-                <div className='mb-[12vh]'>
-                    <div className='w-full border border-[#D7D7D7] rounded-[8vh] px-[10vh] py-[5vh] flex items-center justify-between'>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='w-full border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[4vh] md:py-[5vh] flex flex-col md:flex-row items-center justify-between gap-[4vh] md:gap-0'>
                         {/* Left Side - Image */}
-                        <div className='w-[50%] flex gap-[2vw] justify-center'>
-                            <img loading='lazy' src={v3} alt="The Final Refined" className='w-full object-contain rounded-[4vh] h-[70vh]' />
-                            <img loading='lazy' src={v32} alt="The Final Refined" className='w-full object-contain rounded-[4vh] h-[70vh]' />
+                        <div className='w-full md:w-[50%] flex gap-[2vw] justify-center order-2 md:order-1'>
+                            <img loading='lazy' src={v3} alt="The Final Refined" className='w-full object-contain rounded-[3vh] md:rounded-[4vh] h-[35vh] md:h-[70vh]' />
+                            <img loading='lazy' src={v32} alt="The Final Refined" className='w-full object-contain rounded-[3vh] md:rounded-[4vh] h-[35vh] md:h-[70vh]' />
                         </div>
 
                         {/* Right Side - Text */}
-                        <div className='w-[40%] flex flex-col justify-center gap-[5vh]'>
-                            <h3 className='text-[5vh] font-GilroyBold leading-[6vh]'>
-                                Version 3: <br />
-                                The Final <br />
+                        <div className='w-full md:w-[40%] flex flex-col justify-center gap-[2vh] md:gap-[5vh] order-1 md:order-2 text-center md:text-left'>
+                            <h3 className='text-[3.5vh] md:text-[5vh] font-GilroyBold leading-[4.5vh] md:leading-[6vh]'>
+                                Version 3: <br className='hidden md:block' />
+                                The Final <br className='hidden md:block' />
                                 Refined
                             </h3>
-                            <p className='text-[2.6vh] text-[#606060] font-medium leading-[4vh]'>
+                            <p className='text-[2.2vh] md:text-[2.6vh] text-[#606060] font-medium leading-[3.5vh] md:leading-[4vh]'>
                                 Minimalist White Aesthetic. Consistent Blue Line-Art Icons. Advanced Search & Personalization
                             </p>
                         </div>
@@ -506,13 +497,13 @@ function Pineapple() {
                 </div>
 
                 {/* Usability Testing Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Usability Testing</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Usability Testing</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='text-[2.6vh] text-[#606060] leading-[4.5vh] max-w-[80vw] font-medium'>
+                    <div className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] w-full md:max-w-[80vw] font-medium text-center md:text-left'>
                         <p>
                             We Developed An Interactive Prototype And Conducted Four Remote Usability Tests To Evaluate The App's Intuitiveness And Functional Clarity. Participants Were Given A Specific Scenario Acting As A Student Who Had Sprained Their Wrist And Needed An In-Network Appointment And Were Asked To Complete Tasks Such As Finding The Earliest Slot And Viewing The Cost Estimate. This Approach Allowed Us To Observe Hesitations And Confusions In Real-Time As Users Navigated The Onboarding, Booking, And Claims Review Features.
                         </p>
@@ -520,14 +511,14 @@ function Pineapple() {
                 </div>
 
                 {/* Key Usability Problems Identified Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Key Usability Problems Identified</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Key Usability Problems Identified</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='text-[2.6vh] text-[#606060] leading-[4.5vh] max-w-[80vw] font-medium'>
-                        <p className='mb-[4vh]'>
+                    <div className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] w-full md:max-w-[80vw] font-medium text-center md:text-left'>
+                        <p className='mb-[3vh] md:mb-[4vh]'>
                             Missing Integrations: Users Expected Industry-Standard Features That Were Absent, Such As Clickable Hospital Addresses Linked To Google Maps, Ride-Sharing (Uber/Lyft) Integration, And The Ability To Sync Appointments To Personal Calendars.
                         </p>
                         <p>
@@ -537,13 +528,13 @@ function Pineapple() {
                 </div>
 
                 {/* Lessons Learned From Pineapple Section */}
-                <div className='mb-[12vh]'>
-                    <div className='relative inline-block mb-[5vh]'>
-                        <h2 className='text-[4vh] font-GilroyBold'>Lessons Learned From Pineapple</h2>
-                        <div className='absolute bottom-[-1vh] left-0 w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
+                <div className='mb-[8vh] md:mb-[12vh]'>
+                    <div className='relative inline-block mb-[3vh] md:mb-[5vh] text-center md:text-left w-full md:w-auto'>
+                        <h2 className='text-[3vh] md:text-[4vh] font-GilroyBold'>Lessons Learned From Pineapple</h2>
+                        <div className='absolute bottom-[-1vh] left-[50%] md:left-0 translate-x-[-50%] md:translate-x-0 w-[10vh] md:w-[12vh] h-[0.8vh] bg-[#3B82F6] rounded-full'></div>
                     </div>
 
-                    <div className='text-[2.6vh] text-[#606060] leading-[4.5vh] max-w-[80vw] font-medium'>
+                    <div className='text-[2.2vh] md:text-[2.6vh] text-[#606060] leading-[3.5vh] md:leading-[4.5vh] w-full md:max-w-[80vw] font-medium text-center md:text-left pb-[5vh]'>
                         <p>
                             The Journey Of Creating Pineapple Taught Us That User-Centered Design Relies Heavily On <span className='text-black font-GilroyBold'>Removing Unnecessary Features To Improve Clarity Rather Than Adding New Ones.</span> We Learned That Small Changes In Touch Targets And Labels Significantly Affect The Confidence Of Older Users When Navigating A Digital Space. Ultimately, The Project Highlighted The Critical Role Of Accessible Expertise And The Importance Of Testing Low-Fidelity Wireframes Early To Address Structural Issues Before They Are Solidified In The Final Design.
                         </p>
