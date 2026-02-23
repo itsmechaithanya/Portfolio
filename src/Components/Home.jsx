@@ -35,14 +35,15 @@ function Home() {
         .from(".hero-text-3", { y: 50, opacity: 0, duration: 1, ease: "power4.out" }, "-=0.8")
 
       // Video Parallax
+      const isMobile = window.innerWidth < 768;
       gsap.to(videoRef.current, {
-        yPercent: 80, // Move video down slightly as we scroll
+        yPercent: isMobile ? 25 : 80, // Move video down slightly as we scroll, less on mobile to prevent "resisting scroll"
         ease: "none",
         scrollTrigger: {
           trigger: heroRef.current,
           start: "top top",
           end: "bottom top",
-          scrub: true
+          scrub: isMobile ? 1 : true // Smooth scrub for mobile to prevent choppiness
         }
       })
 
@@ -72,8 +73,8 @@ function Home() {
     <div ref={containerRef}>
       <div className="w-full overflow-hidden font-GilroyMedium">
         <div>
-          <div ref={heroRef} className=' lg:h-screen h-[95vh] w-full relative'>
-            <video ref={videoRef} className='h-[112vh] lg:h-screen w-full object-cover absolute' src={Hero} autoPlay muted loop></video>
+          <div ref={heroRef} className=' lg:h-screen h-[100vh] w-full relative overflow-hidden'>
+            <video ref={videoRef} className='h-[100vh] lg:h-screen w-full object-cover absolute' src={Hero} autoPlay muted loop playsInline></video>
             <div className='absolute text-white z-10 h-screen flex flex-col justify-center ml-[3vh] sm:ml-[4vh] md:ml-[7vh] pointer-events-none w-[90vw] md:w-auto mt-[8vh] md:mt-0'>
               <div className='overflow-hidden'><h1 className="hero-text-1 text-[4vh] md:text-[8vh] font-semi-bold ml-[1vw]">Hello I'm</h1></div>
               <div className='overflow-hidden mt-[-2vh] md:mt-[-5.5vh] pb-[2vh]'><h2 className='hero-text-2 text-[14vw] sm:text-[10vh] md:text-[15vh] font-bold leading-none mt-[1.5vh] md:mt-[3vh]'>Chaithanya.</h2></div>
