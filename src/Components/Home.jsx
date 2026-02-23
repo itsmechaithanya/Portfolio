@@ -73,8 +73,8 @@ function Home() {
     <div ref={containerRef}>
       <div className="w-full overflow-hidden font-GilroyMedium">
         <div>
-          <div ref={heroRef} className=' lg:h-screen h-[100vh] w-full relative overflow-hidden'>
-            <video ref={videoRef} className='h-[100vh] lg:h-screen w-full object-cover absolute' src={Hero} autoPlay muted loop playsInline></video>
+          <div ref={heroRef} className=' lg:h-[100vh] h-[100vh] w-full relative overflow-hidden lg:overflow-visible'>
+            <video ref={videoRef} className='h-[110vh] lg:h-screen w-full object-cover absolute' src={Hero} autoPlay muted loop playsInline></video>
             <div className='absolute text-white z-10 h-screen flex flex-col justify-center ml-[3vh] sm:ml-[4vh] md:ml-[7vh] pointer-events-none w-[90vw] md:w-auto mt-[8vh] md:mt-0'>
               <div className='overflow-hidden'><h1 className="hero-text-1 text-[4vh] md:text-[8vh] font-semi-bold ml-[1vw]">Hello I'm</h1></div>
               <div className='overflow-hidden mt-[-2vh] md:mt-[-5.5vh] pb-[2vh]'><h2 className='hero-text-2 text-[14vw] sm:text-[10vh] md:text-[15vh] font-bold leading-none mt-[1.5vh] md:mt-[3vh]'>Chaithanya.</h2></div>
@@ -86,7 +86,7 @@ function Home() {
                 <h1 className='text-[1.8vh]'>Currently pursuing Master's <br /> in Human-Computer <br /> Interaction</h1>
               </div>
             </div>
-            <div className='absolute lg:bottom-[5vh] bottom-[1vh] right-[5vw] text-white flex items-center justify-center'>
+            <div className='absolute lg:bottom-[5vh] bottom-[4vh] right-[5vw] text-white flex items-center justify-center'>
               <img loading='lazy' className='h-[5vh] md:h-[6.3vh] mr-[-.5vw]' src={Arrow} alt="" />
               <h1 className='text-[2.5vh] md:text-[3vh]'>Scroll Down</h1>
             </div>
@@ -99,9 +99,8 @@ function Home() {
           </div>
           <div>
             <div
-              // data-scroll data-scroll-speed="0.3"  bg-[#EFF0FF] border border-[#D7D7D7]
               className='flex flex-col md:flex-row bg-[#EFF0FF]
-             rounded-[4vh] md:rounded-[8vh] absolute pt-[5vh] md:pt-[10vh] pb-[5vh] md:pb-[10vh] w-[90vw] md:w-full ml-[5vw] md:ml-0 top-[100vh] md:top-auto'>
+             rounded-[4vh] md:rounded-[8vh] absolute mt-[5vh] md:mt-0 pt-[5vh] md:pt-[10vh] pb-[5vh] md:pb-[10vh] w-[90vw] md:w-full ml-[5vw] md:ml-0 top-[100vh] md:top-auto'>
               <div className='w-full md:w-[50vw] flex items-center justify-center relative '>
                 <div><img loading='lazy' className='absolute h-[8vh] md:h-[15vh] left-[5vw]' src={Clip} alt="" /></div>
                 <div className='w-[70vw] md:w-[35vw] h-[40vh] md:h-[80vh] my-[2vh] md:my-[5vh] ml-[2vw] bg-green-200 rounded-[3vh] md:rounded-[5vh] overflow-hidden'>
@@ -112,7 +111,7 @@ function Home() {
                 <h1 className='font-normal text-[2.2vh] md:text-[3.7vh] text-[#606060] text-center md:text-left' >I am a <span className='text-black font-GilroyBold'>UI/UX Designer</span>  and <span className='text-black font-GilroyBold'>Developer</span> passionate about creating seamless, user-centered experiences. I have worked with early-stage startups, building and executing design strategies from scratch. Along with intuitive design and interactive web development, I am also involved in <span className='text-black font-GilroyBold'>Machine Learning</span> and <span className='text-black font-GilroyBold'>Computer Vision</span>. My focus is on elevating digital platforms through innovation and creativity.</h1>
               </div>
             </div>
-            <div className=' h-[50vh] w-full bg-black'></div>
+            <div className=' h-[50vh] w-full'></div>
             <div className=' h-[55vh] w-full'></div>
 
             <div className='section-title w-full mt-[8vh] md:mt-[5vh] h-fit md:h-[23vh] px-[6vw] md:px-[10vh] pt-[5vh] md:pt-[8vh] pb-[3vh] md:pb-0'>
