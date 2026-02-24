@@ -99,7 +99,7 @@ function Navbar() {
               <span className='block transition-transform duration-300 group-hover:-translate-y-full text-gray-200'>About</span>
               <span className='absolute top-0 left-0 block translate-y-full transition-transform duration-300 group-hover:translate-y-0'>About</span>
             </Link>
-            <a href="https://drive.google.com/file/d/1yc8WGb9wLjccbH25oYW8Q9y3olfbl4OM/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='nav-item relative group overflow-hidden'>
+            <a href="https://drive.google.com/file/d/1VWWDjKBFdmQuAqCW0_RJkUiAQ6bFDdc0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='nav-item relative group overflow-hidden'>
               <span className='block transition-transform duration-300 group-hover:-translate-y-full text-gray-200'>Resume</span>
               <span className='absolute top-0 left-0 block translate-y-full transition-transform duration-300 group-hover:translate-y-0'>Resume</span>
             </a>

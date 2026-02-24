@@ -114,7 +114,7 @@ function Home() {
             <div className=' h-[50vh] w-full'></div>
             <div className=' h-[55vh] w-full'></div>
 
-            <div className='section-title w-full mt-[8vh] md:mt-[5vh] h-fit md:h-[23vh] px-[6vw] md:px-[10vh] md:pt-[8vh] pb-[3vh] md:pb-0'>
+            <div className='section-title w-full mt-[8vh] md:mt-[5vh] h-fit md:h-[23vh] px-[6vw] md:px-[10vh] pt-[5vh] md:pt-[8vh] pb-[3vh] md:pb-0'>
               <h1 className='text-[3.5vh] md:text-[4vh] font-extrabold'>Technical Skills</h1>
               <h1 className='text-[2.2vh] md:text-[2.7vh] text-[#606060]'>Crafted with Precision.</h1>
             </div>
@@ -123,14 +123,14 @@ function Home() {
 
 
                 <div className='flex overflow-x-auto no-scrollbar items-center w-full'>
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={figma} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={rea} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={cs} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={mot} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={gsa} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={loco} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={le} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-4 object-contain inline-block shrink-0' src={three} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={figma} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={rea} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={cs} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={mot} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={gsa} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={loco} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={le} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={three} alt="" />
                 </div>
 
 
@@ -142,45 +142,52 @@ function Home() {
             </div>
             <div className='h-fit flex justify-center '>
               <div className='w-[92vw] md:w-[90vw] h-fit bg-[#FBFFFE] border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[5vh] md:py-[10vh]'>
-                <div className='flex flex-col-reverse md:flex-row'>
-                  <div className='w-full md:w-[50vw] font-bold leading-[3.5vh] md:leading-[4vh] mt-[3vh] md:mt-0'><h1 className='text-[3vh] md:text-[3.5vh]'>Project Aria Gen 1 <span className='text-[#606060] text-[2.5vh] md:text-[3vh] font-normal'> - Technical Lead working with Meta ARIA Gen-1 glasses, researching inclusive AI systems through neurodivergent interaction practices.</span></h1></div>
-                  <div className='w-full md:w-[41vw] flex flex-row flex-wrap md:flex-col items-start md:items-end text-[1.8vh] md:text-[2.2vh] gap-[1vh]'>
-                    <h1 className='px-[3vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Research</h1>
-                    <h1 className='px-[3vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Computer Vision</h1>
-                    <h1 className='px-[3vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Neurodiversity</h1>
+                <div className='flex flex-col-reverse md:flex-row justify-between'>
+                  <div className='w-full md:w-[55vw] mt-[3vh] md:mt-0'>
+                    <h1 className='text-[3.8vh] md:text-[4.5vh] font-bold leading-[4.2vh] md:leading-[5vh] tracking-tight'>Project Aria Gen 1</h1>
+                    <h2 className='text-[#606060] text-[2.4vh] md:text-[2.8vh] font-medium leading-[3.4vh] md:leading-[4vh] mt-[1.5vh]'>
+                      Technical Lead working with Meta ARIA Gen-1 glasses, researching inclusive AI systems through neurodivergent interaction practices.
+                    </h2>
+                  </div>
+                  <div className='w-full md:w-[35vw] flex flex-row flex-wrap md:flex-col items-start md:items-end text-[1.8vh] md:text-[2vh] gap-[2.5vw] md:gap-[1vh] font-medium'>
+                    <h1 className='px-[4vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Research</h1>
+                    <h1 className='px-[4vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Computer Vision</h1>
+                    <h1 className='px-[4vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Neurodiversity</h1>
                   </div>
                 </div>
-                <div className='flex gap-[3vw] mt-[3vh] md:mt-[5vh]'>
-                  <div className='cursor-pointer text-[1.8vh] md:text-auto' onClick={() => window.open('https://drive.google.com/drive/folders/1YHZoa_kdm5kZkjQB5roo3I6SlSSUtyCs?usp=sharing', '_blank')}><h1 className='text-white bg-black px-[4vw] md:px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Research till date <img loading='lazy' className='' src={ArrowUp} alt="" /></h1></div>
-                  <div className='flex items-center justify-center gap-[1vw] text-[1.8vh] md:text-auto'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
+                <div className='flex flex-wrap gap-x-[4vw] gap-y-[2.5vh] md:gap-[3vw] mt-[4.5vh] md:mt-[6vh] items-center'>
+                  <div className='cursor-pointer text-[2vh] md:text-[2vh] hover:opacity-80 transition-opacity' onClick={() => window.open('https://drive.google.com/drive/folders/1YHZoa_kdm5kZkjQB5roo3I6SlSSUtyCs?usp=sharing', '_blank')}><h1 className='text-[#F3F3F3] bg-[#0A0A0A] px-[6vw] md:px-[2.5vw] py-[1.8vh] md:py-[2.2vh] rounded-[2vh] md:rounded-[1.5vh] flex items-center justify-center gap-[2.5vw] md:gap-[0.8vw] font-medium tracking-wide'>Research till date <img loading='lazy' className='h-[1.8vh] md:h-[2vh] shrink-0' src={ArrowUp} alt="" /></h1></div>
+                  <div className='flex items-center justify-center gap-[2vw] md:gap-[1vw] text-[2vh] md:text-[2.2vh] font-medium tracking-wide ml-[2vw] md:ml-[0vw]'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-full shrink-0'></div><h1 className='text-black'>In Progress</h1></div>
                 </div>
-                <div className='flex items-center justify-center mt-[4vh] md:mt-[5vh]'>
-                  <div className='w-[80vw] md:w-[65vw] rounded-[3vh] md:rounded-[5vh] overflow-hidden'>
-                    <img loading='lazy' className='w-full h-full' src={glasses} alt="" />
+                <div className='flex items-center justify-center mt-[4vh] md:mt-[5vh] w-full'>
+                  <div className='w-full md:w-[65vw] rounded-[3vh] md:rounded-[5vh] overflow-hidden'>
+                    <img loading='lazy' className='w-full h-auto object-cover md:object-contain scale-[1.15] md:scale-100' src={glasses} alt="Meta Aria Gen 1 Glasses" />
                   </div>
                 </div>
                 <div className='flex flex-col md:flex-row mt-[4vh] md:mt-[5vh] text-[2.2vh] md:text-[3vh]'>
                   <div className='w-full md:w-1/2 ml-0 md:ml-[5vw] mb-[3vh] md:mb-0'> <h1>Winter Quarter <br className='hidden md:block' /> <span className='text-[#606060]'>(January-March  <br className='hidden md:block' />2026): Preparation</span></h1></div>
-                  <div className='w-full md:w-1/2 text-[#606060]'><h1>AI systems are frequently designed with neurotypical users in mind, which can lead to neurodivergent behaviors being misinterpreted, overlooked, or even treated as errors. This narrow perspective limits the inclusivity and effectiveness of AI interactions for a diverse range of users. Within the RAISE Lab, our approach is to recognize and validate these neurodivergent behaviors as legitimate interaction styles, ensuring that our systems are more inclusive and responsive to varied cognitive patterns.
-                    <br />
-                    <br />
-                    Currently, our focus is on a technical ramp-up using Meta Aria hardware and software. This includes developing and refining analysis pipelines that can handle diverse behavioral inputs, establishing comprehensive ethical protocols to guide responsible research and development, reviewing existing literature to inform our methodologies, and training the lab team to maintain high standards of research rigor. Importantly, at this stage, no human-subject data collection is being conducted; our efforts are entirely preparatory, aimed at building a strong foundation for future inclusive and ethically sound AI research.</h1></div>
+                  <div className='w-full md:w-1/2 text-[#606060]'><h1>AI systems are often designed with neurotypical users in mind, which can result in neurodivergent behaviors being misunderstood or treated as errors. At RAISE Lab, we recognize these behaviors as valid interaction styles and aim to build more inclusive and responsive AI systems. Currently, we are in a preparatory phase using Meta Aria hardware and software, where we are developing analysis pipelines, establishing ethical guidelines, reviewing literature, and training the team. No human-subject data is being collected at this stage, as our focus is on building a strong and responsible foundation for future research.</h1></div>
                 </div>
               </div>
             </div>
             <div className='h-fit flex justify-center mt-[5vh]'>
               <div className='w-[92vw] md:w-[90vw] h-fit bg-[#F6F9F1] border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[5vh] md:py-[10vh]'>
-                <div className='flex flex-col-reverse md:flex-row'>
-                  <div className='w-full md:w-[50vw] font-bold leading-[3.5vh] md:leading-[4vh] mt-[3vh] md:mt-0'><h1 className='text-[3vh] md:text-[3.5vh]'>CookIQ<span className='text-[#606060] text-[2.5vh] md:text-[3vh] font-normal'> - An adaptive cooking app reduces mental load by guiding users with context-aware, step-by-step, personalized assistance at home.</span></h1></div>
-                  <div className='w-full md:w-[41vw] flex flex-row flex-wrap md:flex-col items-start md:items-end text-[1.8vh] md:text-[2.2vh] gap-[1vh]'>
-                    <h1 className='px-[3vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>User Research</h1>
-                    <h1 className='px-[3vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>UI Design</h1>
-                    <h1 className='px-[3vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Prototype</h1>
+                <div className='flex flex-col-reverse md:flex-row justify-between'>
+                  <div className='w-full md:w-[55vw] mt-[3vh] md:mt-0'>
+                    <h1 className='text-[3.8vh] md:text-[4.5vh] font-bold leading-[4.2vh] md:leading-[5vh] tracking-tight'>CookIQ</h1>
+                    <h2 className='text-[#606060] text-[2.4vh] md:text-[2.8vh] font-medium leading-[3.4vh] md:leading-[4vh] mt-[1.5vh]'>
+                      An adaptive cooking app reduces mental load by guiding users with context-aware, step-by-step, personalized assistance at home.
+                    </h2>
+                  </div>
+                  <div className='w-full md:w-[35vw] flex flex-row flex-wrap md:flex-col items-start md:items-end text-[1.8vh] md:text-[2vh] gap-[2.5vw] md:gap-[1vh] font-medium'>
+                    <h1 className='px-[4vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>User Research</h1>
+                    <h1 className='px-[4vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>UI Design</h1>
+                    <h1 className='px-[4vw] md:px-[2vw] py-[1vh] border border-[#606060] rounded-[10vh]'>Prototype</h1>
                   </div>
                 </div>
-                <div className='flex gap-[3vw] mt-[3vh] md:mt-[5vh]'>
-                  <div className='cursor-pointer text-[1.8vh] md:text-auto' onClick={() => window.open('https://www.figma.com/proto/Mpmg3jwIcROXx1ekLYqhdk/Cooking-App?page-id=0%3A1&node-id=166-381&viewport=310%2C-710%2C0.22&t=deGrIngxsDbVIPmw-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=166%3A462', '_blank')}><h1 className='text-white bg-black px-[4vw] md:px-[2vw] py-[1.5vh] rounded-[1vh] flex items-center'>Prototype <img loading='lazy' className='' src={ArrowUp} alt="" /></h1></div>
-                  <div className='flex items-center justify-center gap-[1vw] text-[1.8vh] md:text-auto'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-[10vh]'></div><h1>In progress</h1></div>
+                <div className='flex flex-wrap gap-x-[4vw] gap-y-[2.5vh] md:gap-[3vw] mt-[4.5vh] md:mt-[6vh] items-center'>
+                  <div className='cursor-pointer text-[2vh] md:text-[2vh] hover:opacity-80 transition-opacity' onClick={() => window.open('https://www.figma.com/proto/Mpmg3jwIcROXx1ekLYqhdk/Cooking-App?page-id=0%3A1&node-id=166-381&viewport=310%2C-710%2C0.22&t=deGrIngxsDbVIPmw-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=166%3A462', '_blank')}><h1 className='text-[#F3F3F3] bg-[#0A0A0A] px-[6vw] md:px-[2.5vw] py-[1.8vh] md:py-[2.2vh] rounded-[2vh] md:rounded-[1.5vh] flex items-center justify-center gap-[2.5vw] md:gap-[0.8vw] font-medium tracking-wide'>Prototype <img loading='lazy' className='h-[1.8vh] md:h-[2vh] shrink-0' src={ArrowUp} alt="" /></h1></div>
+                  <div className='flex items-center justify-center gap-[2vw] md:gap-[1vw] text-[2vh] md:text-[2vh] font-medium tracking-wide'><div className='h-[1vh] w-[1vh] bg-[#FF8A03] rounded-full shrink-0'></div><h1 className='text-black'>In progress</h1></div>
                 </div>
                 <div className='flex flex-col md:flex-row mt-[5vh] md:mt-[8vh]'>
                   <div className='w-full md:w-1/2 flex justify-center md:justify-start mb-[4vh] md:mb-0'><img loading='lazy' className='w-[60vw] md:w-[22vw] h-full ml-0 md:ml-[5vw] object-contain' src={CookIQ} alt="" /></div>
@@ -195,19 +202,19 @@ function Home() {
               <h1 className='text-[2.2vh] md:text-[2.7vh] text-[#606060]'>Let's connect.</h1>
             </div>
             <div className='flex items-center justify-center'>
-              <div className='w-[92vw] md:w-[96vw] bg-[#F6F1E5] px-[6vw] md:px-[10vh] py-[6vh] md:py-[10vh] rounded-[4vh] md:rounded-[10vh] text-[2.2vh] md:text-[3vh] mb-[5vh] relative overflow-hidden'>
-                <h1 className='text-[3.5vh] md:text-[5vh] font-bold leading-[4vh] md:leading-[6vh] mb-[3vh] md:mb-[5vh]'>Curious by Nature. Designer by <br className='hidden md:block' /> Practice. Developer by Passion.</h1>
-                <h1 className='w-full md:w-1/2'>I'm always open to new and exciting opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below I'd love to connect and explore how we can work together.</h1>
-                <h1 className='mt-[3vh] text-[2vh] md:text-[2.5vh] text-[#606060]'>Find me elsewhere on web,</h1>
-                <div className='h-[5vh] md:h-[10vh]'></div>
+              <div className='w-[92vw] md:w-[96vw] bg-[#F6F1E5] px-[6vw] md:px-[10vh] py-[6vh] md:py-[10vh] rounded-[4vh] md:rounded-[6vh] text-[2.2vh] md:text-[3vh] mb-[5vh] relative overflow-hidden'>
+                <h1 className='text-[3.5vh] md:text-[5vh] font-bold leading-[4vh] md:leading-[5.5vh] mb-[3vh] md:mb-[5vh] z-10 relative pt-[4vh] md:pt-0'>Curious by Nature. Designer by <br className='hidden md:block' /> Practice. Developer by Passion.</h1>
+                <h1 className='w-full md:w-1/2 z-10 relative'>I'm always open to new and exciting opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below I'd love to connect and explore how we can work together.</h1>
+                <h1 className='mt-[4vh] md:mt-[3vh] text-[2vh] md:text-[2.2vh] text-[#606060] font-medium z-10 relative'>Find me elsewhere on web,</h1>
+                <div className='h-[4vh] md:h-[10vh]'></div>
                 <div className=''>
-                  <div className='flex flex-wrap md:flex-nowrap gap-[4vw] md:gap-[3vw] text-[2vh] md:text-[3vh] font-semibold z-10 relative'>
-                    <Link to="https://www.linkedin.com/in/ohnochaithanya//">LinkedIn</Link>
-                    <Link to="https://www.instagram.com/ohnochaithanya">Instagram</Link>
-                    <Link to="https://github.com/itsmechaithanya">Github</Link>
+                  <div className='flex flex-wrap md:flex-nowrap gap-[4vw] md:gap-[3vw] text-[2vh] md:text-[2.6vh] font-semibold z-10 relative'>
+                    <Link className='hover:opacity-80 transition-opacity' to="https://www.linkedin.com/in/ohnochaithanya//">LinkedIn</Link>
+                    <Link className='hover:opacity-80 transition-opacity' to="https://www.instagram.com/ohnochaithanya">Instagram</Link>
+                    <Link className='hover:opacity-80 transition-opacity' to="https://github.com/itsmechaithanya">Github</Link>
                   </div>
-                  <h1 className='text-[2vh] md:text-[2.5vh] text-[#606060] mt-[2vh] z-10 relative'>cmangali@depaul.edu</h1>
-                  <img loading='lazy' className='absolute top-[2vh] right-[-5vw] md:top-0 md:right-[7vw] h-[15vh] md:h-[30vh] opacity-20 md:opacity-100 z-0' src={f} alt="footer logo" />
+                  <h1 className='text-[2vh] md:text-[2.2vh] text-[#606060] mt-[2.5vh] font-medium z-10 relative'>cmangali@depaul.edu</h1>
+                  <img loading='lazy' className='hidden md:block absolute top-[1vh] md:top-0 right-[-6vw] md:right-[4vw] w-[45vw] md:w-[22vw] h-auto object-contain opacity-100 z-0 select-none pointer-events-none' src={f} alt="footer logo" />
                 </div>
               </div>
             </div>
