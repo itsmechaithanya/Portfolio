@@ -135,7 +135,7 @@ function Navbar() {
             <Link to="/About" onClick={() => setIsMenuOpen(false)} className='mobile-nav-item py-2 active:bg-white/10 rounded-lg'>
               About
             </Link>
-            <a href="https://drive.google.com/file/d/1yc8WGb9wLjccbH25oYW8Q9y3olfbl4OM/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='mobile-nav-item py-2 active:bg-white/10 rounded-lg'>
+            <a href="https://drive.google.com/file/d/1VWWDjKBFdmQuAqCW0_RJkUiAQ6bFDdc0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='mobile-nav-item py-2 active:bg-white/10 rounded-lg'>
               Resume
             </a>
             <Link to="/Contact" onClick={() => setIsMenuOpen(false)} className='mobile-nav-item group mx-auto'>

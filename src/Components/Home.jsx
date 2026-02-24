@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Hero from '../assets/Hero.mp4'
 import Arrow from '../assets/Arrow.svg'
 import ArrowUp from '../assets/ArrowUp.svg'
@@ -25,6 +25,26 @@ function Home() {
   const containerRef = useRef(null)
   const videoRef = useRef(null)
   const heroRef = useRef(null)
+  const skillsScrollRef = useRef(null)
+  const [showLeftArrow, setShowLeftArrow] = useState(false)
+
+  const handleScroll = () => {
+    if (skillsScrollRef.current) {
+      setShowLeftArrow(skillsScrollRef.current.scrollLeft > 0)
+    }
+  }
+
+  const scrollSkillsRight = () => {
+    if (skillsScrollRef.current) {
+      skillsScrollRef.current.scrollBy({ left: window.innerWidth > 768 ? 600 : 300, behavior: 'smooth' })
+    }
+  }
+
+  const scrollSkillsLeft = () => {
+    if (skillsScrollRef.current) {
+      skillsScrollRef.current.scrollBy({ left: window.innerWidth > 768 ? -600 : -300, behavior: 'smooth' })
+    }
+  }
 
   useEffect(() => {
     let ctx = gsap.context(() => {
@@ -118,11 +138,10 @@ function Home() {
               <h1 className='text-[3.5vh] md:text-[4vh] font-extrabold'>Technical Skills</h1>
               <h1 className='text-[2.2vh] md:text-[2.7vh] text-[#606060]'>Crafted with Precision.</h1>
             </div>
-            <div className='flex items-center justify-center'>
-              <div className='w-[92vw] md:w-[96vw] bg-[#D4E6FB] h-[55vh] md:h-[65vh] flex items-center justify-start md:justify-center pl-[5vw] md:pl-[3vw] rounded-[3vh] md:rounded-[5vh] overflow-hidden whitespace-nowrap overflow-x-auto'>
+            <div className='flex items-center justify-center relative w-[92vw] md:w-[96vw] mx-auto group'>
+              <div className='w-full bg-[#D4E6FB] h-[55vh] md:h-[65vh] flex items-center justify-start md:justify-center pl-[5vw] md:pl-[3vw] rounded-[3vh] md:rounded-[5vh] overflow-hidden whitespace-nowrap relative'>
 
-
-                <div className='flex overflow-x-auto no-scrollbar items-center w-full'>
+                <div ref={skillsScrollRef} onScroll={handleScroll} className='flex overflow-x-auto no-scrollbar items-center w-full scroll-smooth'>
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={figma} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={rea} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={cs} alt="" />
@@ -133,8 +152,31 @@ function Home() {
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={three} alt="" />
                 </div>
 
-
               </div>
+
+              {/* Scroll Left Button */}
+              {showLeftArrow && (
+                <button
+                  onClick={scrollSkillsLeft}
+                  className='hidden md:flex absolute left-[2vw] top-1/2 -translate-y-1/2 bg-black/40 backdrop-blur-md border border-white/30 text-[#fff] hover:text-black hover:bg-white/60 w-[4vw] h-[4vw] rounded-full items-center justify-center shadow-lg transition-all z-10 cursor-pointer'
+                  aria-label="Scroll left"
+                >
+                  <svg width="2vw" height="2vw" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                  </svg>
+                </button>
+              )}
+
+              {/* Scroll Right Button */}
+              <button
+                onClick={scrollSkillsRight}
+                className='hidden md:flex absolute right-[2vw] top-1/2 -translate-y-1/2 bg-black/40 backdrop-blur-md border border-white/30 text-[#fff] hover:text-black hover:bg-white/60 w-[4vw] h-[4vw] rounded-full items-center justify-center shadow-lg transition-all z-10 cursor-pointer'
+                aria-label="Scroll right"
+              >
+                <svg width="2vw" height="2vw" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
             </div>
             <div className='section-title w-full h-fit md:h-[23vh] px-[6vw] md:px-[10vh] pt-[8vh] pb-[3vh] md:pb-0'>
               <h1 className='text-[3.5vh] md:text-[4vh] font-extrabold'>Recent Project</h1>

@@ -14,7 +14,13 @@ import ScrollToTop from "./ScrollToTop";
 function App() {
 	// Initialize locomotive scroll only on non-mobile devices (min-width: 768px)
 	const isMobile = window.innerWidth < 768;
-	const locomotiveScroll = !isMobile ? new LocomotiveScroll() : null;
+	const locomotiveScroll = !isMobile ? new LocomotiveScroll({
+		lenisOptions: {
+			smooth: true,
+			multiplier: 1.1, // Increased to reduce resistance (feels closer to native scroll speed)
+			lerp: 0.15,      // Increased to make it less smooth/snappier (less inertia)
+		}
+	}) : null;
 
 	return (
 		<>

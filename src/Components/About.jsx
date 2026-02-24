@@ -1,5 +1,5 @@
 import React from 'react'
-import ab1 from '../assets/ab1.svg'
+import ab1 from '../assets/ab1.jpg'
 import ab2 from '../assets/ab2.svg'
 import abk from '../assets/abk.svg'
 import abb from '../assets/abb.svg'
@@ -12,19 +12,24 @@ function About() {
         <div className='px-[7vw] pt-[15vh] flex'>
           <h1 className='text-[5.5vh] md:text-[8vh] font-black font-GilroyBold mb-[3vh] md:mb-[5vh] leading-none'>About Me :)</h1>
         </div>
-        <div className='px-[7vw] text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060] space-y-[3vh] md:space-y-[4vh] mb-[10vh] md:mb-[15vh]'>
-          <p>
-            I’m Chaithanya, A UX Designer and Web Developer with a passion for crafting engaging and impactful digital experiences. My journey began with web development, but I quickly became fascinated by the ‘Why’ behind user interactions. This curiosity led me to explore UX design, where I discovered my passion for solving complex problems through intuitive and User Centered solutions.
-          </p>
-          <p>
-            While my official title has been UX Engineer, I see myself as a <span className='text-black font-GilroyBold'>Design-Engineer Hybrid</span>. I’m passionate about bridging the gap between design and development, capable of taking projects from initial research through to final deployment. My expertise includes tools like React.js, Tailwind CSS, Three.js, and Figma for design, and I’m particularly drawn to creating immersive and interactive experiences using GSAP, Locomotive Scroll, and Swiper JS.
-          </p>
-          <p>
-            My educational journey began at <span className='text-black font-GilroyBold'>Woxsen University, Hyderabad, India</span>, where I completed my <span className='text-black font-GilroyBold'>Computer Science</span> degree. The hands-on experience with diverse projects there has shaped my approach to innovation, collaboration, and problem-solving.
-          </p>
-          <p>
-            Currently, I am pursuing <span className='text-black font-GilroyBold'>Human Computer Interaction</span> at <span className='text-black font-GilroyBold'>DePaul University, Chicago, USA</span> to get hands-on education with User Centered Design. I am excited to take on new challenges that push boundaries and allow me to create meaningful and impactful user experiences.
-          </p>
+        <div className='px-[7vw] flex flex-col-reverse md:flex-row gap-[4vh] md:gap-[5vw] mb-[10vh] md:mb-[15vh] items-center md:items-start'>
+          <div className='w-full md:w-[60%] text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060] space-y-[3vh] md:space-y-[4vh]'>
+            <p>
+              I’m Chaithanya, A UX Designer and Web Developer with a passion for crafting engaging and impactful digital experiences. My journey began with web development, but I quickly became fascinated by the ‘Why’ behind user interactions. This curiosity led me to explore UX design, where I discovered my passion for solving complex problems through intuitive and User Centered solutions.
+            </p>
+            <p>
+              While my official title has been UX Engineer, I see myself as a <span className='text-black font-GilroyBold'>Design-Engineer Hybrid</span>. I’m passionate about bridging the gap between design and development, capable of taking projects from initial research through to final deployment. My expertise includes tools like React.js, Tailwind CSS, Three.js, and Figma for design, and I’m particularly drawn to creating immersive and interactive experiences using GSAP, Locomotive Scroll, and Swiper JS.
+            </p>
+            <p>
+              My educational journey began at <span className='text-black font-GilroyBold'>Woxsen University, Hyderabad, India</span>, where I completed my <span className='text-black font-GilroyBold'>Computer Science</span> degree. The hands-on experience with diverse projects there has shaped my approach to innovation, collaboration, and problem-solving.
+            </p>
+            <p>
+              Currently, I am pursuing <span className='text-black font-GilroyBold'>Human Computer Interaction</span> at <span className='text-black font-GilroyBold'>DePaul University, Chicago, USA</span> to get hands-on education with User Centered Design. I am excited to take on new challenges that push boundaries and allow me to create meaningful and impactful user experiences.
+            </p>
+          </div>
+          <div className='w-full md:w-[40%] shrink-0'>
+            <img src={ab1} alt="Chaithanya" className='w-full rounded-[3vh] object-cover' />
+          </div>
         </div>
 
         {/* Work Experience */}
