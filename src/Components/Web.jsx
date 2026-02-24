@@ -253,7 +253,7 @@ function Web() {
           <div className='w-[90vw] h-fit bg-[#ECF4FF] border border-[#D7D7D7] rounded-[4vh] md:rounded-[8vh] px-[6vw] md:px-[10vh] py-[5vh] md:py-[10vh]'>
             <div className='flex flex-col-reverse md:flex-row justify-between'>
               <div className='w-full md:w-[55vw] mt-[3vh] md:mt-0'>
-                <h1 className='text-[3.8vh] md:text-[4.5vh] font-bold leading-[4.2vh] md:leading-[5vh] tracking-tight'>TV Animation Concept</h1>
+                <h1 className='text-[3.8vh] md:text-[4.5vh] font-bold leading-[4.2vh] md:leading-[5vh] tracking-tight'>Thomas Vance Animation Concept</h1>
                 <h2 className='text-[#606060] text-[2.4vh] md:text-[2.8vh] font-medium leading-[3.4vh] md:leading-[4vh] mt-[1.5vh]'>
                   Exploring rendering complexities, smooth scrolling optimizations, and unique interactions through the Lenis scrolling library.
                 </h2>
@@ -278,7 +278,7 @@ function Web() {
                   <img loading='lazy' className='w-[60vw] md:w-[20vw] h-full ml-0 md:ml-[5vw] object-contain' src={tvm} alt="TV Mobile View" />
                 </div>
                 <div className='w-full md:w-1/2 flex items-center '>
-                  <h1 className='text-[2.2vh] md:text-[3vh] text-[#606060]'><span className='font-bold text-black'>TV Animation Project</span> served as my creative sandbox for highly fluid motion experiments. While initially researching the Lenis library, I decided to test its limits by combining its native scroll smoothing with unique dimensional animations. This experimental project pushed me outside conventional UI patterns to understand the fundamental math behind interpolating user scroll speeds with on-screen asset transformations.</h1>
+                  <h1 className='text-[2.2vh] md:text-[3vh] text-[#606060]'><span className='font-bold text-black'>Thomas Vance Animation Project</span> served as my creative sandbox for highly fluid motion experiments. While initially researching the Lenis library, I decided to test its limits by combining its native scroll smoothing with unique dimensional animations. This experimental project pushed me outside conventional UI patterns to understand the fundamental math behind interpolating user scroll speeds with on-screen asset transformations.</h1>
                 </div>
               </div>
             </div>
