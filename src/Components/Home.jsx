@@ -114,7 +114,7 @@ function Home() {
             <div className=' h-[50vh] w-full'></div>
             <div className=' h-[55vh] w-full'></div>
 
-            <div className='section-title w-full mt-[8vh] md:mt-[5vh] h-fit md:h-[23vh] px-[6vw] md:px-[10vh] pt-[5vh] md:pt-[8vh] pb-[3vh] md:pb-0'>
+            <div className='section-title w-full mt-[8vh] md:mt-[5vh] h-fit md:h-[23vh] px-[6vw] md:px-[10vh] md:pt-[8vh] pb-[3vh] md:pb-0'>
               <h1 className='text-[3.5vh] md:text-[4vh] font-extrabold'>Technical Skills</h1>
               <h1 className='text-[2.2vh] md:text-[2.7vh] text-[#606060]'>Crafted with Precision.</h1>
             </div>

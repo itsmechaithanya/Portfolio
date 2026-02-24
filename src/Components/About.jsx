@@ -14,16 +14,16 @@ function About() {
         </div>
         <div className='px-[7vw] text-[2.2vh] md:text-[3vh] font-medium leading-[3.5vh] md:leading-[5vh] text-[#606060] space-y-[3vh] md:space-y-[4vh] mb-[10vh] md:mb-[15vh]'>
           <p>
-            I’m Chaithanya, A UX Designer and Web Developer with a passion for crafting engaging and impactful digital experiences. My journey began with web development, but I quickly became fascinated by the ‘Why’ behind user interactions. This curiosity led me to explore UX design, where I discovered my passion for solving complex problems through intuitive and <span className='text-black font-GilroyBold'>User Centered</span> solutions.
+            I’m Chaithanya, A UX Designer and Web Developer with a passion for crafting engaging and impactful digital experiences. My journey began with web development, but I quickly became fascinated by the ‘Why’ behind user interactions. This curiosity led me to explore UX design, where I discovered my passion for solving complex problems through intuitive and User Centered solutions.
           </p>
           <p>
-            While my official title has been <span className='text-black font-GilroyBold'>UX Engineer</span>, I see myself as a <span className='text-black font-GilroyBold'>Design-Engineer Hybrid</span>. I’m passionate about bridging the gap between design and development, capable of taking projects from initial research through to final deployment. My expertise includes tools like React.js, Tailwind CSS, Three.js, and Figma for design, and I’m particularly drawn to creating immersive and interactive experiences using GSAP, Locomotive Scroll, and Swiper JS.
+            While my official title has been UX Engineer, I see myself as a <span className='text-black font-GilroyBold'>Design-Engineer Hybrid</span>. I’m passionate about bridging the gap between design and development, capable of taking projects from initial research through to final deployment. My expertise includes tools like React.js, Tailwind CSS, Three.js, and Figma for design, and I’m particularly drawn to creating immersive and interactive experiences using GSAP, Locomotive Scroll, and Swiper JS.
           </p>
           <p>
             My educational journey began at <span className='text-black font-GilroyBold'>Woxsen University, Hyderabad, India</span>, where I completed my <span className='text-black font-GilroyBold'>Computer Science</span> degree. The hands-on experience with diverse projects there has shaped my approach to innovation, collaboration, and problem-solving.
           </p>
           <p>
-            Currently, I am pursuing <span className='text-black font-GilroyBold'>Human Computer Interaction</span> at <span className='text-black font-GilroyBold'>DePaul University, Chicago, USA</span> to get hands-on education with <span className='text-black font-GilroyBold'>User Centered Design</span>. I am excited to take on new challenges that push boundaries and allow me to create meaningful and impactful user experiences.
+            Currently, I am pursuing <span className='text-black font-GilroyBold'>Human Computer Interaction</span> at <span className='text-black font-GilroyBold'>DePaul University, Chicago, USA</span> to get hands-on education with User Centered Design. I am excited to take on new challenges that push boundaries and allow me to create meaningful and impactful user experiences.
           </p>
         </div>
 
