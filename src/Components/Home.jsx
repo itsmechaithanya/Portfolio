@@ -139,17 +139,17 @@ function Home() {
               <h1 className='text-[2.2vh] md:text-[2.7vh] text-[#606060]'>Crafted with Precision.</h1>
             </div>
             <div className='flex items-center justify-center relative w-[92vw] md:w-[96vw] mx-auto group'>
-              <div className='w-full bg-[#D4E6FB] h-[55vh] md:h-[65vh] flex items-center justify-start md:justify-center pl-[5vw] md:pl-[3vw] rounded-[3vh] md:rounded-[5vh] overflow-hidden whitespace-nowrap relative'>
+              <div className='w-full bg-[#D4E6FB] h-[55vh] md:h-[65vh] flex items-center justify-start md:justify-center rounded-[3vh] md:rounded-[5vh] overflow-hidden whitespace-nowrap relative'>
 
                 <div ref={skillsScrollRef} onScroll={handleScroll} className='flex overflow-x-auto no-scrollbar items-center w-full scroll-smooth'>
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={figma} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] ml-[5vw] md:ml-[3vw] mx-2 md:mx-2 object-contain inline-block shrink-0' src={figma} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={rea} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={cs} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={mot} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={gsa} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={loco} alt="" />
                   <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={le} alt="" />
-                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mx-2 md:mx-2 object-contain inline-block shrink-0' src={three} alt="" />
+                  <img loading='lazy' className='h-[45vh] md:h-[50vh] mr-[5vw] md:mr-[3vw] mx-2 md:mx-2 object-contain inline-block shrink-0' src={three} alt="" />
                 </div>
 
               </div>
