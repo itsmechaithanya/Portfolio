@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import f from '../assets/f.svg'
+import f from '../assets/f.webp'
 import { Link } from 'react-router-dom'
 import gsap from 'gsap'
 

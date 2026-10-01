@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import pen from '../assets/pen.svg'
 import ArrowUp from '../assets/ArrowUp.svg'
-import UXP from '../assets/UXP.png'
-import UXPineapple from '../assets/UXPineapple.svg'
-import UXPm from '../assets/UXPm.svg'
-import CookIQ from '../assets/CookIQ.png'
+import UXP from '../assets/UXP.webp'
+import UXPineapple from '../assets/UXPineapple.webp'
+import UXPm from '../assets/UXPm.webp'
+import CookIQ from '../assets/CookIQ.webp'
 
 
 function Uxwork() {

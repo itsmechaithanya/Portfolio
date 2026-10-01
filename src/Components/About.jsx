@@ -1,8 +1,8 @@
 import React from 'react'
-import ab1 from '../assets/ab1.jpg'
-import ab2 from '../assets/ab2.svg'
-import abk from '../assets/abk.svg'
-import abb from '../assets/abb.svg'
+import ab1 from '../assets/ab1.webp'
+import ab2 from '../assets/ab2.webp'
+import abk from '../assets/abk.webp'
+import abb from '../assets/abb.webp'
 import gsap from 'gsap'
 
 function About() {
